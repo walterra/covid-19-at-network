@@ -6,10 +6,39 @@
       type="text/javascript"
       src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="descriptions.js"></script>
     <style type="text/css">
       html, body {
         height: 100%;
         font: 10pt arial;
+      }
+      a:link, a:visited, a:hover, a:active {
+        color:steelblue;
+      }
+      #context-overlay {
+        position: absolute;
+        background: #d0d0d0;
+        margin: 16px;
+        padding: 0px;
+        width: 500px;
+        display: none;
+        z-index: 10000;
+        border: 2px solid #666;
+        border-radius: 5px;
+      }
+      #context-content {
+        padding: 0 16px 16px 16px;
+      }
+      #close-button {
+        background-color: transparent;
+        border: none;
+        color: black;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 10px;
+        float: right;
       }
       #mynetwork {
         width: 100%;
@@ -22,10 +51,13 @@
     </style>
   </head>
   <body>
+    <div id="context-overlay">...</div>
     <div id="mynetwork"></div>
     <script type="text/javascript">
+      const contextOverlay = document.getElementById('context-overlay');
+      const closeContextOverlay = () => { contextOverlay.style.display = "none" };
       // create an array with nodes
-      var nodes = new vis.DataSet([
+      var rawNodes = [
         {
           id: 'fa',
           label: "Franz Allerberger",
@@ -95,7 +127,8 @@
 
         { id: 'zda', label: '"Zahlen der AGES"', shape: "circularImage", image: "img/icon-quote.jpg"},
         { id: 'entd', label: '"Entdämonisierung"', shape: "circularImage", image: "img/icon-quote.jpg"}
-      ]);
+      ];
+      var nodes = new vis.DataSet(rawNodes);
 
       // create an array with edges
       var edges = new vis.DataSet([
@@ -145,8 +178,8 @@
 
       { from: 'ah', to: 'TT', title: 'Chefredakteurin' },
       { from: 'ah', to: 'TirolerAdler', title: 'Moderation Tiroler Adler Forum' },
-      { from: 'fa', to: 'ah', title: 'Interview Tiroler Tageszeitung' },
-      { from: 'ms', to: 'ah', title: 'Interview Tiroler Tageszeitung' },
+      { from: 'fa', to: 'TT', title: 'Interview Tiroler Tageszeitung' },
+      { from: 'ms', to: 'TT', title: 'Interview Tiroler Tageszeitung' },
 
       { from: 'msNeos', to: 'TirolerAdler', title: 'Gastredner Tiroler Adler Forum' },
       { from: 'msNeos', to: 'NEOS', title: 'ehem. Politiker' },
@@ -185,11 +218,32 @@
         edges: {
           color: "#666",
           width: 2,
+          length: 150,
           shadow: true,
           arrows: { middle: { enabled: true, scaleFactor: 0.3 }}
         }
       };
     var network = new vis.Network(container, data, options);
+
+    network.on("selectNode", function (params) {
+        nodeId = params.nodes[0];
+        console.log("selectNode Event:", params);
+        const node = rawNodes.find(rn => rn.id === nodeId);
+        console.log('node', node);
+
+        if (desc[nodeId] !== undefined) {
+          contextOverlay.style.display = "block";
+          contextOverlay.innerHTML = `
+            <button id="close-button" onclick="closeContextOverlay()">X</button>
+            <div id="context-content">
+            ${marked(`# ${node.label}\n\n${desc[nodeId]}`)}
+            </div>
+          `;
+
+        } else {
+          contextOverlay.style.display = "none";
+        }
+      });
     </script>
   </body>
 </html>
