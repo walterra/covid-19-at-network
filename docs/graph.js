@@ -86,11 +86,11 @@ var rawEdges = [
   { from: 'fa', to: 'AGES', title: 'Leitung Öffentliche Gesundheit', font: { align: "middle" } },
   { from: 'ds', to: 'AGES', title: 'Öffentliche Gesundheit', font: { align: "middle" } },
   { from: 'ds', to: 'ra', title: 'PK', font: { align: "middle" } },
-  { from: 'ra', to: 'BMSGPK', title: 'Minister', value: 1.3 },
+  { from: 'ra', to: 'BMSGPK', title: 'Minister', value: 2, length: 60, arrows: { middle: { enabled: false }} },
 
   { from: 'jbs', to: 'PK2020', title: 'Podiumsdiskussion' },
   { from: 'fa', to: 'PK2020', title: 'Vortrag' },
-  { from: 'ms', to: 'PK2020', title: 'Vortrag' },
+  { from: 'ms', to: 'PK2020', title: 'Vortrag, Organisator' },
   { from: 'ask', to: 'PK2020', title: 'Organisatorin' },
   { from: 'ask', to: 'DNEbM', title: 'Mitglied, Programmkomitee' },
 
@@ -98,7 +98,7 @@ var rawEdges = [
   { from: 'ds', to: 'ampelkomm', title: 'nominierte Expertin des Bundes, Sprecherin' },
   { from: 'fa', to: 'ampelkomm', title: 'nominierter Experte des Bundes, Stellvertr. Daniela Schmid' },
   { from: 'sr', to: 'ampelkomm', title: 'nominierte Expertin des Bundes' },
-  { from: 'ampelkomm', to: 'BMSGPK', title: 'berichtet an' },
+  { from: 'ampelkomm', to: 'BMSGPK', title: 'berichtet an', length: 50 },
 
   { from: 'AGES', to: 'zda' },
 
@@ -112,14 +112,14 @@ var rawEdges = [
   { from: 'ms', to: 'OEFOP', title: 'Wissenschaftlicher Koordinator' },
   { from: 'as', to: 'PunktPRERADOVIC', title: 'Youtube Interview' },
 
-  { from: 'as', to: 'DNEbM', title: 'Vorsitzender', value: 2 },
+  { from: 'as', to: 'DNEbM', title: 'Vorsitzender', value: 1.3 },
   { from: 'as', to: 'IWIMED', title: 'Beteiligung' },
   { from: 'sr', to: 'IWIMED', title: 'Beteiligung' },
   { from: 'sr', to: 'ra', title: 'PK für Kinder' },
 
   { from: 'mh', to: 'ICI', title: 'PK' },
   { from: 'as', to: 'ICI', title: 'PK' },
-  { from: 'cf', to: 'ICI', title: 'PK', value: 2 },
+  { from: 'cf', to: 'ICI', title: 'PK', value: 1.3 },
   { from: 'cs', to: 'ICI', title: 'PK' },
 
   { from: 'fa', to: 'aekooe', title: 'PK' },
@@ -149,7 +149,7 @@ var rawEdges = [
   { from: 'zda', to: 'pa', title: 'zitiert durch' },
 
   { from: 'sb', to: 'fw', title: 'Interview' },
-  { from: 'fw', to: 'ServusTV', title: 'Moderator Der Wegscheider', value: 1.5 },
+  { from: 'fw', to: 'ServusTV', title: 'Moderator Der Wegscheider', value: 1.3 },
   { from: 'pa', to: 'ServusTV', title: 'Gast Corona Quartett' },
   { from: 'sb', to: 'ServusTV', title: 'Gast Corona Quartett' },
   { from: 'mf', to: 'ServusTV', title: 'Moderator Corona Quartett' },
