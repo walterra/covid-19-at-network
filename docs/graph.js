@@ -26,32 +26,32 @@ var rawNodes = [
 
 
 
-  { id: 'sb', label: "Sucharit Bhakdi", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'fw', label: "Ferdinand Wegscheider", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'msNeos', label: "Mathias Strolz", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'cf', label: "Christian Fiala", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'cs', label: "Christian Schubert", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'mf', label: "Michael Fleischhacker", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'mh', label: "Martin Haditsch", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'as', label: "Andreas Sönnichsen", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'wz', label: "Wolfgang Ziegler", shape: "circularImage", image: "img/dummy-male.jpg" },
+  { id: 'sb', label: "Sucharit Bhakdi", shape: "circularImage", image: "img/sucharit-bhakdi.jpg" },
+  { id: 'fw', label: "Ferdinand Wegscheider", shape: "circularImage", image: "img/ferdinan-wegscheider.jpg" },
+  { id: 'msNeos', label: "Mathias Strolz", shape: "circularImage", image: "img/mathias-strolz.jpg" },
+  { id: 'cf', label: "Christian Fiala", shape: "circularImage", image: "img/christian-fiala.jpg" },
+  { id: 'cs', label: "Christian Schubert", shape: "circularImage", image: "img/christian-schubert.jpg" },
+  { id: 'mf', label: "Michael Fleischhacker", shape: "circularImage", image: "img/michael-fleischhacker.jpg" },
+  { id: 'mh', label: "Martin Haditsch", shape: "circularImage", image: "img/martin-haditsch.jpg" },
+  { id: 'as', label: "Andreas Sönnichsen", shape: "circularImage", image: "img/andreas-soennichsen.jpg" },
+  { id: 'wz', label: "Wolfgang Ziegler", shape: "circularImage", image: "img/wolfgang-ziegler.jpg" },
   { id: 'ra', label: "Rudi Anschober", shape: "circularImage", image: "img/rudi-anschober.jpg" },
-  { id: 'hf', label: "Heinz Faßmann", shape: "circularImage", image: "img/dummy-male.jpg", size: 20},
+  { id: 'hf', label: "Heinz Faßmann", shape: "circularImage", image: "img/heinz-fassmann.jpg", size: 20},
 
-  { id: 'jbs', label: "Juliane Bogner-Strauß", shape: "circularImage",
-    image: "img/dummy-female.jpg"
-  },
+  // { id: 'jbs', label: "Juliane Bogner-Strauß", shape: "circularImage",
+  //   image: "img/dummy-female.jpg"
+  // },
   { id: 'ask', label: "Andrea Siebenhofer-Kroitzsch", shape: "circularImage",
-    image: "img/dummy-female.jpg"
+    image: "img/andrea-siebenhofer-kroitzsch.jpg"
   },
   { id: 'ds', label: "Daniela Schmid", shape: "circularImage",
-    image: "img/dummy-female.jpg"
+    image: "img/daniela-schmid.jpg"
   },
   { id: 'ah', label: "Anita Heubacher", shape: "circularImage",
-    image: "img/dummy-female.jpg"
+    image: "img/anita-heubacher.jpg"
   },
   { id: 'bmr', label: "Beate Meinl-Reisinger", shape: "circularImage",
-    image: "img/dummy-female.jpg"
+    image: "img/beate-meinl-reisinger.jpg"
   },
 
   { id: 'aekooe', label: "Ärztekammer Oberösterreich", shape: "circularImage", image: "img/icon-institution.png", size: 20},
@@ -88,7 +88,7 @@ var rawEdges = [
   { from: 'ds', to: 'ra', title: 'PK', font: { align: "middle" } },
   { from: 'ra', to: 'BMSGPK', title: 'Minister', value: 2, length: 60, arrows: { middle: { enabled: false }} },
 
-  { from: 'jbs', to: 'PK2020', title: 'Podiumsdiskussion' },
+  // { from: 'jbs', to: 'PK2020', title: 'Podiumsdiskussion', value: 1.3 },
   { from: 'fa', to: 'PK2020', title: 'Vortrag' },
   { from: 'ms', to: 'PK2020', title: 'Vortrag, Organisator' },
   { from: 'ask', to: 'PK2020', title: 'Organisatorin' },
@@ -110,7 +110,8 @@ var rawEdges = [
   { from: 'ms', to: 'ServusTV', title: 'Corona Quartett' },
   { from: 'ms', to: 'NEOSlab', title: 'Studiogast' },
   { from: 'ms', to: 'OEFOP', title: 'Wissenschaftlicher Koordinator' },
-  { from: 'as', to: 'PunktPRERADOVIC', title: 'Youtube Interview' },
+  { from: 'mh', to: 'PunktPRERADOVIC', title: 'Youtube Interview', length: 60 },
+  { from: 'as', to: 'PunktPRERADOVIC', title: 'Youtube Interview', length: 60 },
 
   { from: 'as', to: 'DNEbM', title: 'Vorsitzender', value: 1.3 },
   { from: 'as', to: 'IWIMED', title: 'Beteiligung' },
