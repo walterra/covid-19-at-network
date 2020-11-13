@@ -26,6 +26,8 @@ var rawNodes = [
 
 
 
+
+  { id: 'gw', label: "Günter Weiss", shape: "circularImage", image: "img/guenter-weiss.jpg" },
   { id: 'sb', label: "Sucharit Bhakdi", shape: "circularImage", image: "img/sucharit-bhakdi.jpg" },
   { id: 'fw', label: "Ferdinand Wegscheider", shape: "circularImage", image: "img/ferdinan-wegscheider.jpg" },
   { id: 'msNeos', label: "Mathias Strolz", shape: "circularImage", image: "img/mathias-strolz.jpg" },
@@ -41,18 +43,10 @@ var rawNodes = [
   // { id: 'jbs', label: "Juliane Bogner-Strauß", shape: "circularImage",
   //   image: "img/dummy-female.jpg"
   // },
-  { id: 'ask', label: "Andrea Siebenhofer-Kroitzsch", shape: "circularImage",
-    image: "img/andrea-siebenhofer-kroitzsch.jpg"
-  },
-  { id: 'ds', label: "Daniela Schmid", shape: "circularImage",
-    image: "img/daniela-schmid.jpg"
-  },
-  { id: 'ah', label: "Anita Heubacher", shape: "circularImage",
-    image: "img/anita-heubacher.jpg"
-  },
-  { id: 'bmr', label: "Beate Meinl-Reisinger", shape: "circularImage",
-    image: "img/beate-meinl-reisinger.jpg"
-  },
+  { id: 'ask', label: "Andrea Siebenhofer-Kroitzsch", shape: "circularImage", image: "img/andrea-siebenhofer-kroitzsch.jpg"},
+  { id: 'ds', label: "Daniela Schmid", shape: "circularImage", image: "img/daniela-schmid.jpg"},
+  { id: 'ah', label: "Anita Heubacher", shape: "circularImage", image: "img/anita-heubacher.jpg"},
+  { id: 'bmr', label: "Beate Meinl-Reisinger", shape: "circularImage", image: "img/beate-meinl-reisinger.jpg"},
 
   { id: 'aekooe', label: "Ärztekammer Oberösterreich", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'BMBWF', label: "BMBWF", shape: "circularImage", image: "img/icon-institution.png", size: 20},
@@ -67,6 +61,7 @@ var rawNodes = [
 
   { id: 'IWIMED', label: "IWIMED GmbH", shape: "circularImage", image: "img/icon-company.png", size: 20},
 
+  { id: 'GBD', label: "Great Barrington\nDeclaration", shape: "circularImage", image: "img/icon-media.png", size: 20},
   { id: 'offeneschulen', label: "offeneschulen.at", shape: "circularImage", image: "img/icon-media.png", size: 20},
   { id: 'krone', label: "krone.at", shape: "circularImage", image: "img/icon-media.png", size: 20},
   { id: 'ORF', label: "ORF", shape: "circularImage", image: "img/icon-media.png", size: 20},
@@ -75,11 +70,10 @@ var rawNodes = [
   { id: 'TT', label: "Tiroler Tageszeitung", shape: "circularImage", image: "img/icon-media.png", size: 20},
   { id: 'PunktPRERADOVIC', label: "Punkt.PRERADOVIC", shape: "circularImage", image: "img/icon-media.png", size: 20},
 
-  { id: 'zda', label: '"Zahlen der AGES"', shape: "circularImage", image: "img/icon-quote.jpg"},
-  { id: 'entd', label: '"Entdämonisierung"', shape: "circularImage", image: "img/icon-quote.jpg"},
+  { id: 'zda', label: '"Zahlen der AGES"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
+  { id: 'entd', label: '"Entdämonisierung"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
 
-
-  { id: 'PK2020', label: 'Primärversorgungs-\nKongress 2020', shape: "circularImage", image: "img/icon-event.png"},
+  { id: 'PK2020', label: 'Primärversorgungs-\nKongress 2020', shape: "circularImage", image: "img/icon-event.png", size: 20},
 ];
 
 var rawEdges = [
@@ -113,7 +107,11 @@ var rawEdges = [
   { from: 'mh', to: 'PunktPRERADOVIC', title: 'Youtube Interview', length: 60 },
   { from: 'as', to: 'PunktPRERADOVIC', title: 'Youtube Interview', length: 60 },
 
+  { from: 'gw', to: 'DNEbM', title: 'Zitat OEGIT' },
+  { from: 'gw', to: 'TT', title: 'Interview mit Anita Heubacher' },
+
   { from: 'as', to: 'DNEbM', title: 'Vorsitzender', value: 1.3 },
+  { from: 'as', to: 'GBD', title: 'Unterzeichner' },
   { from: 'as', to: 'IWIMED', title: 'Beteiligung' },
   { from: 'sr', to: 'IWIMED', title: 'Beteiligung' },
   { from: 'sr', to: 'ra', title: 'PK für Kinder' },
@@ -123,6 +121,7 @@ var rawEdges = [
   { from: 'cf', to: 'ICI', title: 'PK', value: 1.3 },
   { from: 'cs', to: 'ICI', title: 'PK' },
 
+  { from: 'gw', to: 'aekooe', title: 'PK' },
   { from: 'fa', to: 'aekooe', title: 'PK' },
   { from: 'pa', to: 'aekooe', title: 'PK' },
   { from: 'ms', to: 'aekooe', title: 'PK' },

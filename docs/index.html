@@ -42,86 +42,20 @@
       #context-content {
         padding: 0 16px 16px 16px;
       }
-      #close-button {
-        background-color: transparent;
-        border: none;
-        color: black;
-        padding: 5px;
-        font-weight: bold;
-        text-align: center;
-        text-decoration: none;
-        font-size: 10px;
-        float: right;
-      }
-      #mynetwork {
-        width: 100%;
-        height: 100%;
-        margin: 0;
-        top: 0;
-        bottom: 0;
-        background-color: #333333;
+      .text-section {
+        margin: 0 15%;
       }
     </style>
   </head>
   <body>
-    <div id="context-overlay">...</div>
-    <div id="mynetwork"></div>
-    <script type="text/javascript">
-      const contextOverlay = document.getElementById('context-overlay');
-      const closeContextOverlay = () => { contextOverlay.style.display = "none" };
+    <div class="text-section">
+      <h1>Falsch beraten? Das Netzwerk der Verharmlosung</h1>
+    </div>
+    <iframe
+      src="network-frame.html"
+      title="Falsch beraten? Das Netzwerk der Verharmlosung"
+      width="100%" height="700" frameBorder="0"
 
-
-      var nodes = new vis.DataSet(rawNodes);
-
-      // create an array with edges
-      var edges = new vis.DataSet(rawEdges);
-
-      // create a network
-      var container = document.getElementById("mynetwork");
-      var data = {
-        nodes: nodes,
-        edges: edges,
-      };
-      var options = {
-        physics: true,
-        nodes: {
-          borderWidth: 3,
-          size: 25,
-          color: {
-            border: "#222222",
-            background: "#666666",
-          },
-          font: { color: "#fff", size: 14, strokeWidth: 3, strokeColor: "#222" },
-          shadow: true,
-        },
-        edges: {
-          color: "#666",
-          width: 2,
-          length: 150,
-          value: 1,
-          shadow: true,
-          arrows: { middle: { enabled: true, scaleFactor: 0.3 }}
-        }
-      };
-    var network = new vis.Network(container, data, options);
-
-    network.on("selectNode", function (params) {
-        nodeId = params.nodes[0];
-        const node = rawNodes.find(rn => rn.id === nodeId);
-
-        if (desc[nodeId] !== undefined) {
-          contextOverlay.style.display = "block";
-          contextOverlay.innerHTML = `
-            <button id="close-button" onclick="closeContextOverlay()">X</button>
-            <div id="context-content">
-            ${marked(`# ${node.label}\n\n${desc[nodeId]}`)}
-            </div>
-          `;
-
-        } else {
-          contextOverlay.style.display = "none";
-        }
-      });
-    </script>
+    ></iframe>
   </body>
 </html>
