@@ -83,6 +83,7 @@
         edges: edges,
       };
       var options = {
+        clickToUse: true,
         physics: true,
         nodes: {
           borderWidth: 3,
@@ -101,6 +102,12 @@
           value: 1,
           shadow: true,
           arrows: { middle: { enabled: true, scaleFactor: 0.3 }}
+        },
+        layout: {
+          randomSeed: 1234
+        },
+        interaction: {
+          zoomSpeed: 0.7
         }
       };
     var network = new vis.Network(container, data, options);
