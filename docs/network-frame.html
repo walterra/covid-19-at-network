@@ -104,7 +104,7 @@
           arrows: { middle: { enabled: true, scaleFactor: 0.3 }}
         },
         layout: {
-          randomSeed: 1234
+          randomSeed: 23459
         },
         interaction: {
           zoomSpeed: 0.7
@@ -121,7 +121,7 @@
           contextOverlay.innerHTML = `
             <button id="close-button" onclick="closeContextOverlay()">X</button>
             <div id="context-content">
-            ${marked(`# ${node.label}\n\n${desc[nodeId]}`)}
+            ${marked(`# ${node.label.replace('\n', ' ')}\n\n${desc[nodeId]}`)}
             </div>
           `;
 

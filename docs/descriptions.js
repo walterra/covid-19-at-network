@@ -46,3 +46,23 @@ desc.DNEbM = `
 *"EbM deutet die von ihnen zitierten Quellen teils anders als deren eigentliche Autoren. … Für andere Thesen nennt das EbM-Papier keine Belege."*<br/>
 15.09.2020 [ZDFheute Faktencheck](https://www.zdf.de/nachrichten/panorama/coronavirus-kritik-pandemie-forschung-evidenzbasiert-100.html)
 `
+
+desc.EbMGL = `
+[EbM-Guidelines - BUCH](https://www.aerzteverlagshaus.at/verlagsprogramm/einzelansicht/products/ebm-guidelines-buch/backPID/verlagshaus/)<br/>
+Susanne Rabady, Andreas Sönnichsen, Ilkka Kunnamo (Hg.)
+`
+
+desc.ICI = `
+[www.initiative-corona.info](https://www.initiative-corona.info/)
+
+*"Angst vor Corona völlig überzogen"*<br/>
+07.10.2020, [APA OTS](https://www.ots.at/presseaussendung/OTS_20201007_OTS0081/mediziner-angst-vor-corona-voellig-ueberzogen)
+`
+
+desc.AMS = `
+[*"Skandalöse Zustände in AMS-Kursen"*](https://twitter.com/andreas_traber/status/1327398315227537408)<br/>
+14.11.2020
+
+[Demonstration von Deutschtrainer/innen mit Kritik an AMS Präsenzkursen](https://twitter.com/JohannesKopf/status/1327289478722019328)</br>
+13.11.2020
+`

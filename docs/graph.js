@@ -24,9 +24,7 @@ var rawNodes = [
     image: "img/susanne-rabady.jpg"
   },
 
-
-
-
+  { id: 'jr', label: "Johannes Rath", shape: "circularImage", image: "img/dummy-male.jpg" },
   { id: 'gw', label: "Günter Weiss", shape: "circularImage", image: "img/guenter-weiss.jpg" },
   { id: 'sb', label: "Sucharit Bhakdi", shape: "circularImage", image: "img/sucharit-bhakdi.jpg" },
   { id: 'fw', label: "Ferdinand Wegscheider", shape: "circularImage", image: "img/ferdinan-wegscheider.jpg" },
@@ -69,6 +67,10 @@ var rawNodes = [
   { id: 'NEOSlab', label: "NEOS lab", shape: "circularImage", image: "img/icon-media.png", size: 20},
   { id: 'TT', label: "Tiroler Tageszeitung", shape: "circularImage", image: "img/icon-media.png", size: 20},
   { id: 'PunktPRERADOVIC', label: "Punkt.PRERADOVIC", shape: "circularImage", image: "img/icon-media.png", size: 20},
+  { id: 'EbMGL', label: "EbM-Guidelines", shape: "circularImage", image: "img/icon-media.png", size: 20},
+  { id: 'PPR', label: "Purkarthofer PR", shape: "circularImage", image: "img/icon-company.png", size: 20},
+  { id: 'ppc', label: "ppc training", shape: "circularImage", image: "img/icon-company.png", size: 20},
+  { id: 'AMS', label: "AMS", shape: "circularImage", image: "img/icon-institution.png", size: 20},
 
   { id: 'zda', label: '"Zahlen der AGES"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
   { id: 'entd', label: '"Entdämonisierung"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
@@ -109,10 +111,11 @@ var rawEdges = [
 
   { from: 'gw', to: 'DNEbM', title: 'Zitat OEGIT' },
   { from: 'gw', to: 'TT', title: 'Interview mit Anita Heubacher' },
-
+  { from: 'as', to: 'EbMGL', title: 'Autor' },
   { from: 'as', to: 'DNEbM', title: 'Vorsitzender', value: 1.3 },
   { from: 'as', to: 'GBD', title: 'Unterzeichner' },
   { from: 'as', to: 'IWIMED', title: 'Beteiligung' },
+  { from: 'sr', to: 'EbMGL', title: 'Autorin' },
   { from: 'sr', to: 'IWIMED', title: 'Beteiligung' },
   { from: 'sr', to: 'ra', title: 'PK für Kinder' },
 
@@ -120,6 +123,10 @@ var rawEdges = [
   { from: 'as', to: 'ICI', title: 'PK' },
   { from: 'cf', to: 'ICI', title: 'PK', value: 1.3 },
   { from: 'cs', to: 'ICI', title: 'PK' },
+  { from: 'PPR', to: 'ICI', title: 'ICI-PK Organisator' },
+  { from: 'jr', to: 'ICI', title: 'ICI Team' },
+  { from: 'jr', to: 'ppc', title: 'Geschäftsführer' },
+  { from: 'ppc', to: 'AMS', title: 'AMS Kursangebot' },
 
   { from: 'gw', to: 'aekooe', title: 'PK' },
   { from: 'fa', to: 'aekooe', title: 'PK' },
