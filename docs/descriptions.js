@@ -10,6 +10,9 @@ desc.fa = `
 *"Die rinnende Nase, um es noch einmal zu sagen, haben wir aus der Falldefinition für diese neue Covid-Erkrankung herausgestrichen."*<br/>
 12.10.2020, Meryn am Montag
 
+*"Lockdown wäre nicht notwendig gewesen"*<br/>
+15.09.2020, [kurier.at](https://kurier.at/wissen/gesundheit/top-infektiologe-bremst-irgendeinen-impfstoff-koennen-sie-immer-mischen/401031530)
+
 *"Bei Covid-19 können wir aber sagen, dass Kinder hier keine Bedeutung haben. So wie bei Tuberkulose sind Kinder hier eben nur in Ausnahmefällen wirklich als Überträger belegt."*
 21.08.2020, [FAQ Coronavirus](https://www.ages.at/themen/krankheitserreger/coronavirus/faq-coronavirus/)
 
@@ -31,6 +34,11 @@ desc.jbs = `
 `
 
 desc.gw = `
+*"Es ist fünf vor zwölf", "konkrete Gefahr" einer Triage in "ein bis zwei Wochen"*<br/>
+11.11.2020, [orf.at](https://tirol.orf.at/stories/3075399/)
+
+Davor ist Günter Weiss leider mit anderen Aussagen aufgefallen:
+
 Im Namen des ÖGIT-Vorstands zitiert Günter Weiss die vielkritisierte *"Stellungnahme des EbM-Netzwerks"*<br/>
 04.10.2020 [OEGIT](https://oegit.eu/2020/10/05/stellungnahme-der-oesterreichischen-gesellschaft-fuer-infektionskrankheiten-und-tropenmedizin-oegit-zur-sars-cov-2-testung/)
 
@@ -60,9 +68,24 @@ desc.ICI = `
 `
 
 desc.AMS = `
-[*"Skandalöse Zustände in AMS-Kursen"*](https://twitter.com/andreas_traber/status/1327398315227537408)<br/>
-14.11.2020
-
 [Demonstration von Deutschtrainer/innen mit Kritik an AMS Präsenzkursen](https://twitter.com/JohannesKopf/status/1327289478722019328)</br>
 13.11.2020
+
+[*"AMS-Kurse: Offener Brief fordert eine Notbremse jetzt!"*](https://www.semiosis.at/2020/11/09/ams-kurse-offener-brief-fordert-eine-notbremse-jetzt/)<br/>
+9.11.2020
+`
+
+desc.pa = `
+*"Das ist völlig unsinnig"* (Antwort auf Frage zu Screenings)<br/>
+*"Schweden ist einen sehr guten Weg gegangen."*<br/>
+06.10.2020, ORF Report
+
+*"Wir haben keine zweite Welle, wir haben einen Labor-Tsunami"*<br/>
+18.09.2020, [tips.at](https://www.tips.at/nachrichten/linz/land-leute/516667-wir-haben-keine-zweite-welle-wir-haben-einen-labor-tsunami-aerztekammer-fuer-ooe-warnt-vor-corona-panik)
+`
+
+desc.sr = `
+Susanne Rabady selbst ist im Rahmen der COVID-19-Krise nicht durch stark verharmlosende Aussagen aufgefallen. Sie hat in der Vergangenheit allerdings gemeinsam mit Andreas Sönnichsen publiziert und ist mit ihm an derselben Firma beteiligt. Auf Nachfrage hat sie sich nicht explizit von seinen Aussagen distanziert.
+
+In einem [ORF-Interview vom August](https://noe.orf.at/stories/3063121/) sagte sie, *"dass wir mit unserer Strategie gut durchkommen"* und sieht zu dem Zeitpunkt keine zweite Welle, merkt aber an: "Es kann schnell kippen".
 `

@@ -53,7 +53,7 @@ var rawNodes = [
   { id: 'OEFOP', label: "OEFOP", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'ICI', label: "Initiative evidenzbasierte\nCorona-Information", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'ampelkomm', label: "Ampel-Kommission", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'DNEbM', label: "Netzwerk evidenzbasierte Medizin", shape: "circularImage", image: "img/icon-institution.png", size: 20},
+  { id: 'DNEbM', label: "Netzwerk\nevidenzbasierte\nMedizin", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'TirolerAdler', label: "Tiroler Adler", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'NEOS', label: "NEOS", shape: "circularImage", image: "img/icon-institution.png", size: 20},
 
