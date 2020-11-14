@@ -20,6 +20,7 @@
     <script src="graph.js"></script>
     <style type="text/css">
       html, body {
+        width: 100%;
         height: 100%;
         font: 10pt arial;
         margin: 0;
@@ -42,6 +43,9 @@
       #context-content {
         padding: 0 16px 16px 16px;
       }
+      #network-frame {
+        width: 90%; margin: 0 auto; height: 700px; display: block;
+      }
       .text-section {
         margin: 0 15%;
       }
@@ -50,12 +54,15 @@
   <body>
     <div class="text-section">
       <h1>Falsch beraten? Das Netzwerk der Verharmlosung</h1>
+      <p style="width: 75%"><strong>Wie funktioniert die Netzwerkanalyse?</strong> Der Graphik liegen Informationen zu Personen, Institutionen etc. und ihre Verbindungen zu Grunde. Eine Verbindung ist zum Beispiel <i>"Rudi Anschober ist Minister des Gesundheitsministeriums"</i> oder <i>"Franz Allerberger war Teil der Test-Tsunami-Pressekonferenz"</i>.</p>
+      <p style="width: 75%">Ein physikalisches Modell berechnet dann die Position der Knoten und Verbindungen: Alle Knoten stossen sich an sich voneinander ab, die Verbindungen ziehen bestimmte Knoten aber wieder näher zusammen. Mit einem Klick auf einen Knoten können Sie weitere Informationen abrufen. Ein Klick auf eine Verbindung zeigt die Art der Verbindung an (z.B. Teilnahme an einer Pressekonferenz, Mitglied einer Institution).</p>
+      <p style="width: 75%"><strong>Was kann diese Analyse leisten?</strong> Man spricht von <i>Emergenz</i>, wenn in der Gesamtansicht Zusammenhänge sichtbar werden, die durch Betrachtung einzelner Informationen nicht sichtbar sind. Ein Beispiel: Es gibt keine direkte Verbindung von Andreas Sönnichsen zu Rudi Anschober. In der Gesamtansicht erkennt man aber, dass zwischen den beiden nur wenige Knotensprünge liegen und es insgesamt enge und nahe Verbindungen zum <i>Netzwerk evidenzbasierte Medizin</i> gibt.</p>
     </div>
     <iframe
+      id="network-frame"
       src="network-frame.html"
       title="Falsch beraten? Das Netzwerk der Verharmlosung"
-      width="100%" height="700" frameBorder="0"
-
+      frameBorder="0"
     ></iframe>
   </body>
 </html>
