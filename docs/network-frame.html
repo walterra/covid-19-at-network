@@ -86,7 +86,16 @@
       const contextOverlay = document.getElementById('context-overlay');
       const closeContextOverlay = () => { contextOverlay.style.display = "none" };
 
-
+      // highlight nodes with click content
+      // rawNodes.forEach(n => {
+      //   if (desc[n.id] !== undefined) {
+      //     n.borderWidth = 5;
+      //     n.color = {
+      //         border: "#359ad4",
+      //         background: "#666666",
+      //     };
+      //   }
+      // });
       var nodes = new vis.DataSet(rawNodes);
 
       // create an array with edges
@@ -120,7 +129,7 @@
           arrows: { middle: { enabled: true, scaleFactor: 0.3 }}
         },
         layout: {
-          randomSeed: 23459
+          randomSeed: 23453
         },
         interaction: {
           zoomSpeed: 0.7

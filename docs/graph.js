@@ -74,6 +74,7 @@ var rawNodes = [
 
   { id: 'zda', label: '"Zahlen der AGES"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
   { id: 'entd', label: '"Entdämonisierung"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
+  { id: 'SW', label: '"Schwedischer Weg"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
 
   { id: 'PK2020', label: 'Primärversorgungs-\nKongress 2020', shape: "circularImage", image: "img/icon-event.png", size: 20},
 ];
@@ -139,6 +140,8 @@ var rawEdges = [
 
   { from: 'pa', to: 'hf', title: 'PK' },
   { from: 'pa', to: 'ORF', title: 'ORF Report Interview' },
+  { from: 'pa', to: 'SW', title: '"Schweden ist einen sehr guten Weg gegangen"' },
+  { from: 'fa', to: 'SW', title: 'Einladung Anders Tegnell' },
   { from: 'hf', to: 'BMBWF' },
 
   { from: 'ah', to: 'TT', title: 'Chefredakteurin' },

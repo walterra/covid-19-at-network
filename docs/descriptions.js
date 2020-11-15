@@ -10,11 +10,20 @@ desc.fa = `
 *"Die rinnende Nase, um es noch einmal zu sagen, haben wir aus der Falldefinition für diese neue Covid-Erkrankung herausgestrichen."*<br/>
 12.10.2020, Meryn am Montag
 
+*"Die Sorge, dass Kinder die Grosseltern infizieren, das kann man heute viel pragmatischer sehen."*<br/>
+21.09.2020, [Primärversorgungskongress 2020](https://www.youtube.com/watch?v=Iodch7W65yU)
+
 *"Lockdown wäre nicht notwendig gewesen"*<br/>
 15.09.2020, [kurier.at](https://kurier.at/wissen/gesundheit/top-infektiologe-bremst-irgendeinen-impfstoff-koennen-sie-immer-mischen/401031530)
 
 *"Bei Covid-19 können wir aber sagen, dass Kinder hier keine Bedeutung haben. So wie bei Tuberkulose sind Kinder hier eben nur in Ausnahmefällen wirklich als Überträger belegt."*
 21.08.2020, [FAQ Coronavirus](https://www.ages.at/themen/krankheitserreger/coronavirus/faq-coronavirus/)
+
+*"Das Virus hat keine Flügel"*<br/>
+01.08.2020, [derStandard](https://www.derstandard.at/story/2000119089756/oesterreichs-oberster-virendetektiv)
+
+*"50 Prozent Durchseuchungsrate in Balkan-Region"*<br/>
+27.07.2020, [Kleine Zeitung](https://www.kleinezeitung.at/international/corona/5845080/Wie-Wuhan-und-Ischgl_Experte_50-Prozent-Durchseuchungsrate-in)
 
 *"Kein Beleg fuer Maskenpflicht"*<br/>21.07.2020, [Tiroler Tageszeitung](https://www.tt.com/artikel/30742756/experten-und-unternehmer-einig-kein-beleg-fuer-maskenpflicht)
 `;
@@ -102,4 +111,44 @@ Der Artikel greift viele kursierende, unseriöse Informationen rund um PCR-Tests
 
 *"Kein Beleg für Maskenpflicht"*<br/>
 21.07.2020, [TT](https://www.tt.com/artikel/30742756/experten-und-unternehmer-einig-kein-beleg-fuer-maskenpflicht)
+`
+
+desc.ds = `
+Leiterin der Abteilung Surveillance und Infektionsepidemiologie bei AGES
+
+*Gerät die Situation außer Kontrolle? — "Nein".*<br/>
+06.11.2020, [derStandard](https://www.derstandard.at/jetzt/livebericht/2000121480294/usa-erreichen-rekord-von-ueber-100-000-neuinfektionen)
+
+*"Welle ist ein Angst-Wort"*<br/>
+*"Generell werden Kinder nicht als Treiber der Epidemie angesehen."*<br/>
+26.09.2020, [Die Presse](https://www.diepresse.com/5873205/sprecherin-der-corona-kommission-welle-ist-ein-angst-wort)
+`
+
+desc.ask = `
+Professorin für Allgemeinmedizin und evidenzbasierte Versorgungsforschung<br/>
+Mitglied der Corona-Kommission<br/>
+Organisatorin Primärversorgungskongress 2020<br/>
+Programmkomitee des Deutschen Netzwerks EbM<br/>
+[medunigraz.at](https://allgemeinmedizin.medunigraz.at/unser-institut/team/andrea-siebenhofer-kroitzsch/)
+
+*"Wer kritisch hinterfragt, sollte nicht als Corona-Leugner stigmatisiert werden."*<br/>
+*"Mittlerweile wissen wir auch, dass Kinder nicht Treiber der Infektion sind. Wir wissen auch, dass sie sich weniger anstecken, kaum Virenübertraeger sind."*<br/>
+
+[Webinar "Alternative zur Polarisierung"](https://www.youtube.com/watch?v=Iodch7W65yU&feature=emb_logo) beim Primärversorgungskongress 2020 (u.a. mit Martin Sprenger und Franz Allerberger)
+
+Es scheint in dieser Diskussionsrunde Konsens zu sein, dass COVID-19 in Zukunft keine aussergewöhnliche Belastung darstellen wird, sondern einfach Teil der "Virensaison" wird. Von einer drohenden, sich abzeichnenden Krise, die letztendlich im November 2020 zu einem weiteren harten Lockdown führen wird, ist keine Rede.
+`
+
+desc.cf = `
+*"Durch die Corona-Maßnahmen wird die Grundlage der Medizin auf den Kopf gestellt"*<br/>
+07.10.2020, [APA OTS](https://www.ots.at/presseaussendung/OTS_20201007_OTS0081/mediziner-angst-vor-corona-voellig-ueberzogen)
+
+*"Unnötige Corona-Panik"*<br/>
+*"Die zahlreichen zuverlässigen Daten belegen übereinstimmend, dass wir uns am Ende einer eher harmlosen Grippe-Saison befinden. Für eine massiv gefährliche Ausbreitung eines Corona Virus oder eine sehr starke Zunahme an kranken Menschen gibt es keinen Hinweis, ganz im Gegenteil, geht beides zurück"*<br/>
+02.04.2020, [APA OTS](https://www.ots.at/presseaussendung/OTS_20200402_OTS0084/pm-gynaekologe-fiala-unnoetige-corona-panik-gefaehrdet-existenzen-gesundheitssystem-und-sozialen-frieden)
+`
+
+desc.jr = `
+*"Das Sterben der Menschen aus der "Risikogruppe", so traurig und tragisch es auch ist, ist zudem eine relativ milde Form der Warnung."*<br/>
+04.10.2020 [story one](https://www.story.one/de/u/johannes-rath-89c66e5c/meine-gedanken-meine-zweifel-hoffnung)
 `
