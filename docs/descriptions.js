@@ -89,3 +89,17 @@ Susanne Rabady selbst ist im Rahmen der COVID-19-Krise nicht durch stark verharm
 
 In einem [ORF-Interview vom August](https://noe.orf.at/stories/3063121/) sagte sie, *"dass wir mit unserer Strategie gut durchkommen"* und sieht zu dem Zeitpunkt keine zweite Welle, merkt aber an: "Es kann schnell kippen".
 `
+
+desc.ah = `
+Chefredakteurin bei der Tiroler Tageszeitung
+
+*"Der (PCR-)Test ist nicht zur Diagnostik zugelassen."*<br/>
+07.11.2020, [TT](https://www.tt.com/artikel/17520480/positiv-aber-nicht-infektioes-pcr-test-braucht-differenzierung)<br/>
+Der Artikel greift viele kursierende, unseriöse Informationen rund um PCR-Tests auf. Vgl. bzgl. Diagnostik diesen [Artikel bei correctiv.org](https://correctiv.org/faktencheck/medizin-und-gesundheit/2020/04/07/coronavirus-nein-aktuelle-pcr-tests-haben-keine-fehlerquote-von-30-bis-50-prozent/).
+
+*"Die Schar der Lemminge"*<br/>
+19.10.2020, [Leitartikel TT](https://www.ots.at/presseaussendung/OTS_20201018_OTS0034/leitartikel-die-schar-der-lemminge-vom-19-oktober-2020-von-anita-heubacher)
+
+*"Kein Beleg für Maskenpflicht"*<br/>
+21.07.2020, [TT](https://www.tt.com/artikel/30742756/experten-und-unternehmer-einig-kein-beleg-fuer-maskenpflicht)
+`
