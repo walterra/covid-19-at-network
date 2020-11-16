@@ -1,8 +1,23 @@
 var desc = {};
 
 desc.as = `
+Wissenschaftler und Allgemeinmediziner<br/>
+Vorsitzender des Deutschen Netzwerks Evidenzbasierte Medizin (DNEbM)<br/>
+[Wikipedia](https://de.wikipedia.org/wiki/Andreas_S%C3%B6nnichsen)
+
+*"Andreas Sönnichsen (MedUni Wien) etwa hat die Erklärung (Anm.: Great Barrington Declaration) auch unterzeichnet."*<br/>
+20.10.2020, [derStandard](https://www.derstandard.de/story/2000121053888/drosten-und-andere-experten-warnen-vor-konzept-der-herdenimmunitaet)
+
+*"Der Mediziner Andreas Sönnichsen, [...] trat jetzt in Wien gemeinsam mit drei anderen Corona-skeptischen Ärzten auf. Tenor: Das ist gar nicht so gefährlich, die Maßnahmen sind übertrieben, oft sogar (Masken) schädlich.*"</br>
+08.10.2020, [derStandard](https://www.derstandard.at/story/2000120605735/gar-nicht-so-gefaehrlich)
+
+
 *"Die Gefahr, dass das Virus überhandnimmt und es zu einer zweiten Welle kommt, hält Sönnichsen für äußerst gering."*<br/>
-21.07.2020, [addendum.org](https://www.addendum.org/coronavirus/rueckkehr-zur-maskenpflicht/)`
+21.07.2020, [addendum.org](https://www.addendum.org/coronavirus/rueckkehr-zur-maskenpflicht/)
+
+*"Die Medizinische Universität Wien distanziert sich als Institution ausdrücklich von diesen Aussagen, die ausschließlich die persönliche Meinung von Andreas Sönnichsen widerspiegeln und keineswegs der offiziellen Haltung der Universität in dieser Thematik entsprechen."*<br/>
+03.04.2020, [Medizinische Universität Wien](https://zph.meduniwien.ac.at/news/single-view/?tx_ttnews%5Btt_news%5D=4808&tx_ttnews%5Bpointer%5D=1&cHash=147b107d308978faea77d6ad3281f48e)
+`
 
 desc.fa = `
 [Faktencheck Allerberger bei „Frühstück bei mir“](https://wieneralltag.wordpress.com/2020/10/28/tag-231-faktencheck-allerberger-bei-fruhstuck-bei-mir/)<br/>25.10.2020
