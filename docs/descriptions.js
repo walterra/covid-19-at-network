@@ -167,3 +167,61 @@ desc.jr = `
 *"Das Sterben der Menschen aus der "Risikogruppe", so traurig und tragisch es auch ist, ist zudem eine relativ milde Form der Warnung."*<br/>
 04.10.2020 [story one](https://www.story.one/de/u/johannes-rath-89c66e5c/meine-gedanken-meine-zweifel-hoffnung)
 `
+
+desc.bmr = `
+*"Es ist die schlechteste Lösung, wenn Kinder nicht in der Schule sind – das bestätigt die AGES"*<br/>
+09.11.0202, [heute.at](https://www.heute.at/s/schul-shutdown-waere-katastrophe-fuer-kinder-und-eltern-100111588)
+
+*"Meinl-Reisinger schlug dazu die Einrichtung einer Expertenkommission vor - und nannte mit Franz Allerberger von der AGES bereits einen möglichen Leiter."*<br/>
+29.09.2020, [Salzburger Nachrichten](https://www.sn.at/politik/innenpolitik/neos-fordern-experten-statt-regierung-fuer-corona-massnahmen-93496387)
+
+Zu den Aussagen Franz Allerbergers und den "Zahlen der AGES" klicken Sie bitte auf die entsprechenden Knoten im Netzwerk.
+`
+
+desc.offeneschulen = `
+Petition NEOS
+
+*"Petition für offene Schulen und Kindergärten auch in Corona Zeiten<br/>
+Obwohl es kaum Hinweise gibt, dass Kindergärten und Schulen Anteil an der aktuellen Ausbreitung von COVID-19 haben, ..."*<br/>
+07.11.2020, [offeneschulen.at/webarchive.org](https://web.archive.org/web/20201107092942/https://offeneschulen.at/)<br/>
+
+Der Text vom 7.11. wurde mittlerweile in dieser Form von der aktuellen Website gelöscht. Das bedeutet aber auch, dass die Petition Unterschriften von Menschen zu unterschiedlichen Fassungen der Website/Petition sammelt. Es ist nicht klar, ob dies für Unterzeichner transparent ist. Die Website wird von NEOS selbst gehostet und kann beliebig während der Petition verändert werden. In den [Nutzungbedingungen](https://www.openpetition.de/content/terms_of_use) von gehosteten Petitionsplattformen gibt es mitunter Klauseln, dass die Veränderung laufender Petitionen bis zur Sperrung führen kann.
+
+<hr/>
+
+*"Schulen spielen laut Expert_innen eine untergeordnete Rolle im Infektionsgeschehen."*<br/>
+17.11.2020, [offeneschulen.at](https://offeneschulen.at/)
+
+Als Quellen bzgl. Infektionensgeschehen werden angegeben:
+
+- [Coronavirus](https://www.ages.at/themen/krankheitserreger/coronavirus/)-Seite der AGES, siehe dazu den *"Zahlen der AGES"*-Knoten in der Visualisierung)
+- [*"Testing Shows Schools Aren’t Propelling Covid-19 Outbreaks"*](https://www.bloomberg.com/news/articles/2020-11-03/testing-shows-schools-aren-t-propelling-covid-19-outbreaks), Bloomberg-Artikel über die [*"COVID-19 Transmission in US Child Care Programs"*](https://pediatrics.aappublications.org/content/early/2020/10/16/peds.2020-031971?cct=2287)<br/>
+
+Einer der Autoren obiger Studie [warnt jedoch](https://twitter.com/WalterGilliam/status/1317979692385828866) eindrichlich davor, die Aussagen der Studie zu verkürzen und dazu zu verwenden, bei hohem Ausbruchsgeschehen offene Schulen zu fordern: *"The paper clearly stated findings should NOT be applied to K12 schools or colleges."*
+`
+
+desc.zda = `
+Die "Zahlen der AGES" werden oft für die Behauptung herangezogen, Kinder und Jugendliche hätten einen wesentlich geringeren Anteil am Infektionsgeschehen und wären weniger ansteckend als Erwachsene (siehe in diesem Zusammenhang auch die Zitate von Franz Allerberger).
+
+Solche Schlussfolgerungen sind aber auf Basis dieser Zahlen nicht wirklich zulässig:
+
+*"Wie schon der Infektiologe Christoph Wenisch in der ZiB2 sinngemäß sagte, bedeutet die sehr hohe Zahl an Haushaltsclustern, dass man die Übertragungswege nicht nachvollziehen könne."*<br/>
+01.11.2020, [derStandard](https://www.derstandard.at/story/2000119448741/im-hoechsten-corona-labor-oesterreichs)
+
+Weiters wird bis heute die Altersverteilung aller gemachten PCR-Tests (positiv wie negativ) durch die AGES nicht veröffentlicht. Ohne diese Vergleichszahlen ist nicht eruierbar, wie hoch die Positivrate von Kindern und Jugendlichen im Vergleich zu Erwachsenen ist. Aussagen wie z.B. *"x Positive im Vergleich zu y SchülerInnen insgesamt"* sind irreführend und lassen keinen Vergleich zu Erwachsenen zu.
+
+*"Es gibt keine öffentlich verfügbaren Daten über die Zahl der an Kindern und jugendlichen Tests durchgeführten Tests. Nur die Zahl der positiven Tests. Wir kennen also die Positivrate dieser Altersgruppe nicht. Das wäre aber eine entscheidende Schlüsselgröße."*<br/>
+01.11.2020, [Erich Neuwirth](https://twitter.com/neuwirthe/status/1323007854568181763)
+
+Abgesehen von der Ausbreitungsproblematik klammert diese Diskussion die möglichen Folgen von "Long Covid" auch bei asymptomatischen und leichteren Verläufen aus.
+
+----
+
+Seit 13.11.2020 liegt die [*"Erstuntersuchung der Schul-Sars-CoV-2-Monitoringstudie"*](https://www.bmbwf.gv.at/Themen/schule/beratung/corona/gs.html) vor, durchgeführt durch ein Konsortium der Medizinischen Universität Graz, der Medizinischen Universität Innsbruck, der Medizinischen Fakultät der JKU Linz und der Universität Wien in Zusammenarbeit mit
+dem Bundesministerium für Bildung, Wissenschaft und Forschung.
+
+*"Bitte hören wir auf mit der Diskussion, Kinder unter zehn würden keine Rolle spielen. In Schulen findet ein relevantes Infektionsgeschehen statt, und dieses wird auch aus den Schulen in die Familien getragen."*<br/>
+13.11.2020, Michael Wagner in [derStandard](https://www.derstandard.at/story/2000121673318/gurgeltest-studie-viel-mehr-corona-infizierte-in-benachteiligten-schulen)
+`
+
+
