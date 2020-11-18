@@ -36,7 +36,9 @@ var rawNodes = [
   { id: 'as', label: "Andreas Sönnichsen", shape: "circularImage", image: "img/andreas-soennichsen.jpg" },
   { id: 'wz', label: "Wolfgang Ziegler", shape: "circularImage", image: "img/wolfgang-ziegler.jpg" },
   { id: 'ra', label: "Rudi Anschober", shape: "circularImage", image: "img/rudi-anschober.jpg" },
-  { id: 'hf', label: "Heinz Faßmann", shape: "circularImage", image: "img/heinz-fassmann.jpg", size: 20},
+  { id: 'hf', label: "Heinz Faßmann", shape: "circularImage", image: "img/heinz-fassmann.jpg"},
+  { id: 'hk', label: "Herbert Kickl", shape: "circularImage", image: "img/herbert-kickl.jpg"},
+  { id: 'sk', label: "Sebastian Kurz", shape: "circularImage", image: "img/sebastian-kurz.jpg"},
 
   // { id: 'jbs', label: "Juliane Bogner-Strauß", shape: "circularImage",
   //   image: "img/dummy-female.jpg"
@@ -45,6 +47,7 @@ var rawNodes = [
   { id: 'ds', label: "Daniela Schmid", shape: "circularImage", image: "img/daniela-schmid.jpg"},
   { id: 'ah', label: "Anita Heubacher", shape: "circularImage", image: "img/anita-heubacher.jpg"},
   { id: 'bmr', label: "Beate Meinl-Reisinger", shape: "circularImage", image: "img/beate-meinl-reisinger.jpg"},
+  { id: 'prw', label: "Pamela Rendi-Wagner", shape: "circularImage", image: "img/pamela-rendi-wagner.jpg"},
 
   { id: 'aekooe', label: "Ärztekammer Oberösterreich", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'BMBWF', label: "BMBWF", shape: "circularImage", image: "img/icon-institution.png", size: 20},
@@ -56,6 +59,9 @@ var rawNodes = [
   { id: 'DNEbM', label: "Netzwerk\nevidenzbasierte\nMedizin", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'TirolerAdler', label: "Tiroler Adler", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'NEOS', label: "NEOS", shape: "circularImage", image: "img/icon-institution.png", size: 20},
+  { id: 'FPOE', label: "FPÖ", shape: "circularImage", image: "img/icon-institution.png", size: 20},
+  { id: 'OEVP', label: "ÖVP", shape: "circularImage", image: "img/icon-institution.png", size: 20},
+  { id: 'SPOE', label: "SPÖ", shape: "circularImage", image: "img/icon-institution.png", size: 20},
 
   { id: 'IWIMED', label: "IWIMED GmbH", shape: "circularImage", image: "img/icon-company.png", size: 20},
 
@@ -68,6 +74,7 @@ var rawNodes = [
   { id: 'TT', label: "Tiroler Tageszeitung", shape: "circularImage", image: "img/icon-media.png", size: 20},
   { id: 'PunktPRERADOVIC', label: "Punkt.PRERADOVIC", shape: "circularImage", image: "img/icon-media.png", size: 20},
   { id: 'EbMGL', label: "EbM-Guidelines", shape: "circularImage", image: "img/icon-media.png", size: 20},
+  { id: 'wochenblick', label: "Wochenblick", shape: "circularImage", image: "img/icon-media.png", size: 20},
   { id: 'PPR', label: "Purkarthofer PR", shape: "circularImage", image: "img/icon-company.png", size: 20},
   { id: 'ppc', label: "ppc training", shape: "circularImage", image: "img/icon-company.png", size: 20},
   { id: 'AMS', label: "AMS", shape: "circularImage", image: "img/icon-institution.png", size: 20},
@@ -86,12 +93,12 @@ var rawEdges = [
   { from: 'ra', to: 'BMSGPK', title: 'Minister', value: 2, length: 60, arrows: { middle: { enabled: false }} },
 
   // { from: 'jbs', to: 'PK2020', title: 'Podiumsdiskussion', value: 1.3 },
-  { from: 'fa', to: 'PK2020', title: 'Vortrag' },
+  { from: 'fa', to: 'PK2020', title: 'Vortrag', length: 30 },
   { from: 'ms', to: 'PK2020', title: 'Vortrag, Organisator' },
   { from: 'ask', to: 'PK2020', title: 'Organisatorin' },
-  { from: 'ask', to: 'DNEbM', title: 'Mitglied, Programmkomitee' },
+  { from: 'ask', to: 'DNEbM', title: 'Mitglied, Programmkomitee', length: 30 },
 
-  { from: 'ask', to: 'ampelkomm', title: 'nominierte Expertin des Bundes' },
+  { from: 'ask', to: 'ampelkomm', title: 'nominierte Expertin des Bundes', length: 30 },
   { from: 'ds', to: 'ampelkomm', title: 'nominierte Expertin des Bundes, Sprecherin' },
   { from: 'fa', to: 'ampelkomm', title: 'nominierter Experte des Bundes, Stellvertr. Daniela Schmid' },
   { from: 'sr', to: 'ampelkomm', title: 'nominierte Expertin des Bundes' },
@@ -99,7 +106,12 @@ var rawEdges = [
 
   { from: 'AGES', to: 'zda' },
 
-  { from: 'mh', to: 'ORF', title: 'Im Gespräch' },
+  { from: 'mh', to: 'ORF', title: 'Ö1 Im Gespräch' },
+  { from: 'fa', to: 'wochenblick', title: 'Artikel zu Frühstück bei mir' }, // https://www.wochenblick.at/ages-infektiologe-allerberger-jeder-wird-das-corona-virus-bekommen/
+  { from: 'mh', to: 'wochenblick', title: 'Artikel' }, // https://www.wochenblick.at/ages-infektiologe-allerberger-jeder-wird-das-corona-virus-bekommen/
+  { from: 'wochenblick', to: 'hk', title: 'Martin-Haditsch-Artikel zitiert durch' },
+  { from: 'hk', to: 'FPOE', title: 'geschäftsführender Klubobmann' },
+  { from: 'SW', to: 'hk', title: '"Schweden sei ohne einschränkende Maßnahmen viel besser gefahren."' },
   { from: 'fa', to: 'ORF', title: 'Frühstück bei mir' },
   { from: 'as', to: 'ORF', title: 'ZiB 2 Interview' },
   { from: 'ms', to: 'ORF', title: 'ZiB 2 Interview' },
@@ -108,7 +120,8 @@ var rawEdges = [
   { from: 'ms', to: 'NEOSlab', title: 'Studiogast' },
   { from: 'ms', to: 'OEFOP', title: 'Wissenschaftlicher Koordinator' },
   { from: 'mh', to: 'PunktPRERADOVIC', title: 'Youtube Interview', length: 60 },
-  { from: 'as', to: 'PunktPRERADOVIC', title: 'Youtube Interview', length: 60 },
+  { from: 'as', to: 'PunktPRERADOVIC', title: 'Youtube Interview: "Wir brauchen das schwedische Modell"', length: 60 },
+  { from: 'as', to: 'SW', title: 'Youtube Interview: "Wir brauchen das schwedische Modell"', length: 60 },
 
   { from: 'gw', to: 'DNEbM', title: 'Zitat OEGIT' },
   { from: 'gw', to: 'TT', title: 'Interview mit Anita Heubacher' },
@@ -131,7 +144,7 @@ var rawEdges = [
 
   { from: 'gw', to: 'aekooe', title: 'PK' },
   { from: 'fa', to: 'aekooe', title: 'PK' },
-  { from: 'pa', to: 'aekooe', title: 'PK' },
+  { from: 'pa', to: 'aekooe', title: 'PK', length: 30 },
   { from: 'ms', to: 'aekooe', title: 'PK' },
   { from: 'aekooe', to: 'entd', title: 'propagiert' },
   { from: 'wz', to: 'entd', title: 'propagiert' },
@@ -141,8 +154,11 @@ var rawEdges = [
   { from: 'pa', to: 'hf', title: 'PK' },
   { from: 'pa', to: 'ORF', title: 'ORF Report Interview' },
   { from: 'pa', to: 'SW', title: '"Schweden ist einen sehr guten Weg gegangen"' },
-  { from: 'fa', to: 'SW', title: 'Einladung Anders Tegnell' },
+  { from: 'fa', to: 'SW', title: 'Einladung Anders Tegnell', length: 30 },
   { from: 'hf', to: 'BMBWF' },
+  { from: 'hf', to: 'OEVP' },
+  { from: 'sk', to: 'OEVP' },
+  { from: 'prw', to: 'SPOE' },
 
   { from: 'ah', to: 'TT', title: 'Chefredakteurin' },
   { from: 'ah', to: 'TirolerAdler', title: 'Moderation Tiroler Adler Forum' },
@@ -151,12 +167,13 @@ var rawEdges = [
 
   { from: 'msNeos', to: 'TirolerAdler', title: 'Gastredner Tiroler Adler Forum' },
   { from: 'msNeos', to: 'NEOS', title: 'ehem. Politiker' },
-  { from: 'bmr', to: 'NEOS', title: 'Parteivorsitzende' },
+  { from: 'bmr', to: 'NEOS', title: 'Parteivorsitzende', length: 30, value: 1.3 },
   { from: 'zda', to: 'bmr', title: 'zitiert durch' },
   { from: 'NEOS', to: 'offeneschulen', title: 'Kampagne' },
   { from: 'NEOS', to: 'NEOSlab' },
   { from: 'zda', to: 'offeneschulen', title: 'zitiert durch' },
   { from: 'zda', to: 'pa', title: 'zitiert durch' },
+  { from: 'zda', to: 'prw', title: 'zitiert durch' },
 
   { from: 'sb', to: 'fw', title: 'Interview' },
   { from: 'fw', to: 'ServusTV', title: 'Moderator Der Wegscheider', value: 1.3 },

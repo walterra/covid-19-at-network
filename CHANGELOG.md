@@ -1,5 +1,9 @@
 # Changelog
 
+## 18.11.2020 02:15
+
+Added Herbert Kickl, Sebastian Kurz, Pamela Rendi-Wagner, FPÖ, SPÖ, ÖVP, Wochenblick.
+
 ## 17.11.2020 01:30
 
 Extended Node Descriptions.

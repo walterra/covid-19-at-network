@@ -217,11 +217,45 @@ Abgesehen von der Ausbreitungsproblematik klammert diese Diskussion die möglich
 
 ----
 
-Seit 13.11.2020 liegt die [*"Erstuntersuchung der Schul-Sars-CoV-2-Monitoringstudie"*](https://www.bmbwf.gv.at/Themen/schule/beratung/corona/gs.html) vor, durchgeführt durch ein Konsortium der Medizinischen Universität Graz, der Medizinischen Universität Innsbruck, der Medizinischen Fakultät der JKU Linz und der Universität Wien in Zusammenarbeit mit
-dem Bundesministerium für Bildung, Wissenschaft und Forschung.
+Seit 13.11.2020 liegt die [*"Erstuntersuchung der Schul-Sars-CoV-2-Monitoringstudie"*](https://www.bmbwf.gv.at/Themen/schule/beratung/corona/gs.html) vor, durchgeführt durch ein Konsortium der Medizinischen Universität Graz, der Medizinischen Universität Innsbruck, der Medizinischen Fakultät der JKU Linz und der Universität Wien in Zusammenarbeit mit dem Bundesministerium für Bildung, Wissenschaft und Forschung.
 
 *"Bitte hören wir auf mit der Diskussion, Kinder unter zehn würden keine Rolle spielen. In Schulen findet ein relevantes Infektionsgeschehen statt, und dieses wird auch aus den Schulen in die Familien getragen."*<br/>
 13.11.2020, Michael Wagner in [derStandard](https://www.derstandard.at/story/2000121673318/gurgeltest-studie-viel-mehr-corona-infizierte-in-benachteiligten-schulen)
 `
 
+desc.sk = `
+Bundeskanzler der Republik Österreich
 
+[*"Message-Control als Virenschutz"*](https://www.derstandard.at/story/2000115152142/message-control-als-virenschutz) — Der Kanzler, um Deutungshoheit bemüht, schießt mitunter mit dem Versuch, einprägsame Statements in Pressekonferenzen und Exklusiv-Interviews unters eigenverantwortliche Volk zu bringen, in beide Richtungen übers Ziel hinaus. Er pendelt sozusagen zwischen Schwarzmalerei und Verharmlosung.
+
+*"Es gibt Licht am Ende des Tunnels. Es ist sehr wahrscheinlich, dass diese Corona-Krise kürzer andauern wird, als viele Experten ursprünglich vorhergesagt haben."*<br/>
+28.08.2020, [derStandard.at](https://www.derstandard.at/story/2000119658045/kurz-prognosen)
+
+*"Wir werden in absehbarer Zeit zur gewohnten Normalität zurückkehren können."*<br/>
+28.08.2020, [Wiener Zeitung](https://www.wienerzeitung.at/meinung/leitartikel/2073152-Kurz-der-Corona-Optimist.html)
+
+*"Nachdem wir die gesundheitlichen Folgen der Krise überstanden haben, müssen wir jetzt angesichts der Weltwirtschaftskrise die Konjunktur in Österreich wieder ankurbeln."*<br/>
+13.06.2020, [Facebook](https://www.facebook.com/sebastiankurz.at/posts/3008155035942816/)
+
+*"Bald wird jeder von uns jemanden kennen, der am Coronavirus gestorben ist."*<br/>
+30.03.2020, [derStandard.at](https://www.derstandard.at/story/2000119658045/kurz-prognosen)
+`
+
+desc.hk = `
+Politiker (FPÖ)
+
+*"Wir brauchen einen sofortigen Stopp der Testungen von symptomlosen Personen"*<br/>
+25.10.2020, [vienna.at](https://www.vienna.at/corona-massentests-schueren-laut-kickl-nur-panik/6786851)
+
+*Kickl behauptet, dass die Koalition eine "zweite Welle" her-teste. Schweden sei ohne einschränkende Maßnahmen viel besser gefahren.*<br/>
+23.09.2020, [Die Presse](https://www.diepresse.com/5871355/nationalrat-untergriffige-debatte-uber-corona-gesetze)
+`
+
+desc.prw = `
+Bundesparteivorsitzende der SPÖ
+
+*"Ich bin felsenfest davon überzeugt, dass es grundfalsch ist, Schulen zu schließen. [...] Wir wissen, dass Kinder verglichen mit Erwachsenen nur ein Zehntel der Infektionsrate haben." — Schulschließungen könne sie jedoch aus fachlicher Sicht nicht mittragen. [...] Aktuelle AGES-Daten belegen, dass die 15 bis 18-jährigen OberstufenschülerInnen, die bereits seit über zwei Wochen im Distance Learning sind, eine höhere Infektionshäufigkeit als in der Schule zeigen, so Rendi-Wagner. [...] Da die Schulschließungen aus fachlicher Sicht nicht mitzutragen seien, wird die SPÖ dem Gesamt-Lockdown-Paket heute nicht zustimmen, stellt Rendi-Wagner klar.*<br/>
+15.11.2020, [APA OTS](https://www.ots.at/presseaussendung/OTS_20201115_OTS0050/lockdown-rendi-wagner-fuer-offene-schulen)
+
+Pamela Rendi-Wagner bezieht sich am 15.11. auf "aktuelle AGES-Daten". Allerdings meinte [Roland Achatz, Pressesprecher der AGES, bereits am 6.11.](https://twitter.com/RoliRolihlahla/status/1324647144461115392): *"Aufgrund des exponentiellen Fall-Anstiegs ist der aktuelle Anteil mit aufgeklärter Infektionsquelle für KW 44 mit 27% deutlich geringer als im Vergleich zu den vorangegangenen Kalenderwochen. Somit ist die Vergleichsanalyse der Verteilung der Fälle nach Übertragungs-Setting nicht zuverlässig, daher ist die Darstellung dieser Analyse erst wieder von zusätzlichem Wert, wenn mindestens 60% neu aufgetretener Fälle pro KW mit ihrer Infektionsquelle abgeklärt werden können."*
+`
