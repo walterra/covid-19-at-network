@@ -1,5 +1,9 @@
 # Changelog
 
+## 19.11.2020 12:00
+
+Added Mathias Strolz pop-up.
+
 ## 18.11.2020 02:15
 
 Added Herbert Kickl, Sebastian Kurz, Pamela Rendi-Wagner, FPÖ, SPÖ, ÖVP, Wochenblick.

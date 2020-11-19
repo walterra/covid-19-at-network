@@ -259,3 +259,13 @@ Bundesparteivorsitzende der SPÖ
 
 Pamela Rendi-Wagner bezieht sich am 15.11. auf "aktuelle AGES-Daten". Allerdings meinte [Roland Achatz, Pressesprecher der AGES, bereits am 6.11.](https://twitter.com/RoliRolihlahla/status/1324647144461115392): *"Aufgrund des exponentiellen Fall-Anstiegs ist der aktuelle Anteil mit aufgeklärter Infektionsquelle für KW 44 mit 27% deutlich geringer als im Vergleich zu den vorangegangenen Kalenderwochen. Somit ist die Vergleichsanalyse der Verteilung der Fälle nach Übertragungs-Setting nicht zuverlässig, daher ist die Darstellung dieser Analyse erst wieder von zusätzlichem Wert, wenn mindestens 60% neu aufgetretener Fälle pro KW mit ihrer Infektionsquelle abgeklärt werden können."*
 `
+
+desc.msNeos = `
+*"Corona ist eine üppige Explosion der Chancen."*<br/>
+14.09.2020, [Tiroler Adler Forum](https://www.tt.com/artikel/30752027/tiroler-adler-forum-im-zeichen-der-pandemie-zum-nachsehen)
+
+*"Die Schulen jetzt komplett zuzudrehen, wäre grundfalsch. Das Infektionsgeschehen - gerade bei den jungen SchülerInnen - ist gemäß Studien überschaubar. Evidenzbasiert muss Schulschließung daher nachrangig sein."*<br/>
+05.11.2020 [Facebook](https://www.facebook.com/matthias.strolz/posts/1897839773688331)
+
+Leider lässt uns Mathias Strolz nicht wissen, welche Studien er meint. Zu einer Einschätzung bzgl. Schulen finden sich im Pop-up des "Zahlen der AGES"-Knotens weitere Informationen.
+`
