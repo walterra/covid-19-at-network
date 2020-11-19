@@ -48,6 +48,9 @@ var rawNodes = [
   { id: 'ah', label: "Anita Heubacher", shape: "circularImage", image: "img/anita-heubacher.jpg"},
   { id: 'bmr', label: "Beate Meinl-Reisinger", shape: "circularImage", image: "img/beate-meinl-reisinger.jpg"},
   { id: 'prw', label: "Pamela Rendi-Wagner", shape: "circularImage", image: "img/pamela-rendi-wagner.jpg"},
+  { id: 'ng', label: "Nicole Grois", shape: "circularImage", image: "img/dummy-female.jpg"},
+
+
 
   { id: 'aekooe', label: "Ärztekammer Oberösterreich", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'BMBWF', label: "BMBWF", shape: "circularImage", image: "img/icon-institution.png", size: 20},
@@ -78,6 +81,7 @@ var rawNodes = [
   { id: 'PPR', label: "Purkarthofer PR", shape: "circularImage", image: "img/icon-company.png", size: 20},
   { id: 'ppc', label: "ppc training", shape: "circularImage", image: "img/icon-company.png", size: 20},
   { id: 'AMS', label: "AMS", shape: "circularImage", image: "img/icon-institution.png", size: 20},
+  { id: 'ÖGKJ', label: "ÖGKJ", shape: "circularImage", image: "img/icon-institution.png", size: 20},
 
   { id: 'zda', label: '"Zahlen der AGES"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
   { id: 'entd', label: '"Entdämonisierung"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
@@ -91,6 +95,7 @@ var rawEdges = [
   { from: 'ds', to: 'AGES', title: 'Öffentliche Gesundheit', font: { align: "middle" } },
   { from: 'ds', to: 'ra', title: 'PK', font: { align: "middle" } },
   { from: 'ra', to: 'BMSGPK', title: 'Minister', value: 2, length: 60, arrows: { middle: { enabled: false }} },
+  { from: 'ÖGKJ', to: 'BMSGPK', title: 'Fachinformation für BMSGPK' },
 
   // { from: 'jbs', to: 'PK2020', title: 'Podiumsdiskussion', value: 1.3 },
   { from: 'fa', to: 'PK2020', title: 'Vortrag', length: 30 },
@@ -132,6 +137,8 @@ var rawEdges = [
   { from: 'sr', to: 'EbMGL', title: 'Autorin' },
   { from: 'sr', to: 'IWIMED', title: 'Beteiligung' },
   { from: 'sr', to: 'ra', title: 'PK für Kinder' },
+  { from: 'ng', to: 'ÖGKJ', title: 'Referatsleiterin ÖGKJ' },
+  { from: 'ng', to: 'ICI', title: 'PK' },
 
   { from: 'mh', to: 'ICI', title: 'PK' },
   { from: 'as', to: 'ICI', title: 'PK' },

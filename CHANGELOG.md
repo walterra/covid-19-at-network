@@ -1,5 +1,9 @@
 # Changelog
 
+## 19.11.2020 17:15
+
+Added Nicole Grois, ÖGKJ.
+
 ## 19.11.2020 12:00
 
 Added Mathias Strolz pop-up.

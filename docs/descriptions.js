@@ -269,3 +269,33 @@ desc.msNeos = `
 
 Leider lässt uns Mathias Strolz nicht wissen, welche Studien er meint. Zu einer Einschätzung bzgl. Schulen finden sich im Pop-up des "Zahlen der AGES"-Knotens weitere Informationen.
 `
+
+desc.ng = `
+niedergelassene Kinderfachärztin<br/>
+Referatsleiterin ÖGKJ
+
+Rednerin bei einer "Spontan-Kundgebung" von ICI, hier Auszüge aus dem Aviso:
+
+*"Umso mehr, als längst medizinisch belegt ist, dass Kinder am wenigsten zum Infektionsgeschehen beitragen."*<br/>
+*"Kinder sollen auch keine Maske in der Schule tragen müssen. Denn sie sind am wenigsten durch Covid gefährdet und stecken auch am wenigsten an."*<br/>
+19.11.2020, [APA OTS](https://www.ots.at/amp/pr/OTS_20201119_OTS0127)
+
+Zu einer Einschätzung bzgl. Schulen finden sich im Pop-up des "Zahlen der AGES"-Knotens weitere Informationen.
+`
+
+desc.ÖGKJ = `
+Österreichische Gesellschaft für Kinder- und Jugendheilkunde
+
+Ergebnisse der Schul-Gurgeltests werden noch nicht in den Empfehlungen der ÖGKJ berücksichtigt. Die letzte Aktualisierung fand am 23.10.2020 statt. Demnach würden Cluster-Analysen der AGES „klar“ zeigen, dass die meisten Ansteckungen im häuslich-familiären Umfeld stattfinden. Auch das gemeinsam mit dem Gesundheitsministerium vor Schulbeginn ausgearbeitete Dokument zum Vorgehen bei positiv getesteten Kindern unter zehn Jahren (übrige Kinder nicht automatisch K1-Kontaktpersonen), ist unverändert online.<br/>
+18.11.2020, via [medonline.at](https://medonline.at/10064532/2020/schul-gurgeltests-juengere-aeltere-kinder-gleich-haeufig-infiziert/)
+
+*"Nach derzeitiger Evidenzlage nehmen Kinder unter 10 Jahren, auch wenn selbst infiziert,
+keine wesentliche Rolle in der Ausbreitung von SARS-CoV-2 ein. Aufgrund der geringen Rolle
+als Überträger, dem zumeist asymptomatischen Verlauf und aufgrund der Tatsache, dass
+eine Infektion mit einem anderen Krankheitserreger um ein Vielfaches wahrscheinlicher ist,
+müssen Kinder bis zur 5. Schulstufe mit leichten Symptomen ([...]) nicht
+in jedem Fall getestet werden."*<br/>
+Stand: 28.10.2020, [Empfehlungen für die Gesundheitsbehörden im Umgang mit SARS-CoV-2-Infektionen im Kindes- und Jugendalter](https://www.sozialministerium.at/Informationen-zum-Coronavirus/Coronavirus---Fachinformationen.html)
+
+Zu einer Einschätzung bzgl. Schulen finden sich im Pop-up des "Zahlen der AGES"-Knotens weitere Informationen.
+`
