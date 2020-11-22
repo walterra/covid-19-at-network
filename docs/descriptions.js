@@ -299,3 +299,9 @@ Stand: 28.10.2020, [Empfehlungen für die Gesundheitsbehörden im Umgang mit SAR
 
 Zu einer Einschätzung bzgl. Schulen finden sich im Pop-up des "Zahlen der AGES"-Knotens weitere Informationen.
 `
+
+desc.cw = `
+*"Leider gibt es nur wenige mutige Länder, etwa Schweden, die einen anderen Weg wagen."*<br/>
+*"diese lächerlichen Masken*"<br/>
+30.04.2020, [derStandard](https://www.derstandard.at/story/2000117182929/gesundheitsexpertin-es-ist-eine-angstbesetzte-politik-der-kontrolle)
+`

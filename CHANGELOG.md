@@ -1,5 +1,9 @@
 # Changelog
 
+## 22.11.2020 12:30
+
+Added Claudia Wild, AIHTA.
+
 ## 19.11.2020 17:15
 
 Added Nicole Grois, ÖGKJ.

@@ -49,6 +49,7 @@ var rawNodes = [
   { id: 'bmr', label: "Beate Meinl-Reisinger", shape: "circularImage", image: "img/beate-meinl-reisinger.jpg"},
   { id: 'prw', label: "Pamela Rendi-Wagner", shape: "circularImage", image: "img/pamela-rendi-wagner.jpg"},
   { id: 'ng', label: "Nicole Grois", shape: "circularImage", image: "img/dummy-female.jpg"},
+  { id: 'cw', label: "Claudia Wild", shape: "circularImage", image: "img/dummy-female.jpg"},
 
 
 
@@ -65,6 +66,7 @@ var rawNodes = [
   { id: 'FPOE', label: "FPÖ", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'OEVP', label: "ÖVP", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'SPOE', label: "SPÖ", shape: "circularImage", image: "img/icon-institution.png", size: 20},
+  { id: 'AIHTA', label: "AIHTA", shape: "circularImage", image: "img/icon-institution.png", size: 20},
 
   { id: 'IWIMED', label: "IWIMED GmbH", shape: "circularImage", image: "img/icon-company.png", size: 20},
 
@@ -187,4 +189,10 @@ var rawEdges = [
   { from: 'pa', to: 'ServusTV', title: 'Gast Corona Quartett' },
   { from: 'sb', to: 'ServusTV', title: 'Gast Corona Quartett' },
   { from: 'mf', to: 'ServusTV', title: 'Moderator Corona Quartett' },
+
+  { from: 'BMSGPK', to: 'AIHTA', title: 'Gesellschafter' },
+  { from: 'cw', to: 'AIHTA', title: 'Geschäftsführerin der AIHTA GmbH', value: 1.3, length: 30 },
+  { from: 'cw', to: 'DNEbM', title: 'Institutsmitgliedschaft', length: 30 },
+  { from: 'AIHTA', to: 'DNEbM', title: 'Partner' },
+  { from: 'SW', to: 'cw', title: 'Leider gibt es nur wenige mutige Länder, etwa Schweden, die einen anderen Weg wagen.' },
 ];
