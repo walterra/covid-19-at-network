@@ -1,5 +1,9 @@
 # Changelog
 
+## 24.11.2020 23:00
+
+Added Rudi Anschober description.
+
 ## 22.11.2020 12:30
 
 Added Claudia Wild, AIHTA.

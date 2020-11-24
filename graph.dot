@@ -1,0 +1,180 @@
+digraph G {
+  rankdir = LR
+  size="30,20"
+  ratio="fill"
+  splines="true"
+
+  graph [fontname = "helvetica" overlap="false"]
+  node [fontname="helvetica" color="#40b9e5" fontcolor="#000000" penwidth=2]
+  edge [len=2 fontname="helvetica" fontsize=11 color=gray50 fontcolor=gray50 penwidth=2]
+
+  fa [label="Franz Allerberger"]
+  ms [label="Martin Sprenger"]
+  pa [label="Petra Apfalter"]
+
+  wz [label="Wolfgang Ziegler"]
+  ds [label="Daniela Schmid"]
+
+  sr [label="Susanne Rabady"]
+  ho [label="Herwig Ostermann"]
+
+  as [label="Andreas Sönnichsen"]
+
+  ah [label="Anita Heubacher"]
+
+  hf [label="Heinz Faßmann"]
+  ra [label="Rudi Anschober"]
+
+  mh [label="Martin Haditsch"]
+  cf [label="Christian Fiala"]
+  cs [label="Christian Schubert"]
+
+  sb [label="Sucharit Bhakdi"]
+  fw [label="Ferdinand Wegscheider"]
+  mf [label="Michael Fleischhacker"]
+
+  msNEOS [label="Mathias Strolz"]
+  bmr [label="Beate Meinl-Reisinger"]
+
+  aekooe [label="Ärztekammer Oberösterreich" shape="box"]
+  ages [label="AGES" shape="box"]
+  ampelkomm [label="Corona-Kommission" shape="box"]
+  BMSGPK [shape="box"]
+  BMBWF [shape="box"]
+  ORF [shape="box"]
+  krone [label="krone.at" shape="box"]
+  ServusTV [shape="box"]
+  GOE [label="Gesundheit Österreich GmbH" shape="box"]
+  IWIMED [label="IWIMED GmbH" shape="box"]
+  TT [label="Tiroler Tageszeitung" shape="box"]
+  DNEbM [label="Netzwerk evidenzbasierte Medizin" shape="box"]
+  ICI [label="Initiative evidenzbasierte Corona-Information" shape="box"]
+  TirolerAdler [label="Tiroler Adler Forum" shape="box"]
+  addendum [label="addendum" shape="box"]
+  PunktPRERADOVIC [label="Punkt.PRERADOVIC" shape="box"]
+
+  NEOS [shape="box"]
+  offeneschulen [label="www.offeneschulen.at" shape="box"]
+  NEOSlab [label="NEOS Lab" shape="box"]
+  OEFOP [shape="box"]
+
+  entd [label="\"Entdämonisierung\"" shape="trapezium"]
+  zda [label="\"Zahlen der AGES\"" shape="trapezium"]
+
+  Fbm [label="Frühstück bei mir" shape="hexagon"]
+  iG [label="Im Gespräch" shape="hexagon"]
+  ZiB2 [label="ZiB 2" shape="hexagon"]
+  Report [label="ORF Report" shape="hexagon"]
+  CQuartett [label="Corona Quartett"]
+  wegscheider [label="Der Wegscheider"]
+
+  { rank = same
+    aekooe ages
+  }
+
+  { rank = same
+    BMSGPK BMBWF
+  }
+
+  { rank = same
+    fa ms pa ds
+  }
+
+  { rank = same
+    hf ra
+  }
+
+  { rank = same
+    ORF krone TT ServusTV
+  }
+
+  { rank = same
+    ZiB2 Fbm iG Report CQuartett
+  }
+
+  { rank = same
+    DNEbM ICI
+  }
+
+
+  pa -> hf [label=" PK "]
+  hf -> BMBWF [label=" Minister des "]
+
+  pa -> aekooe [label=" PK "]
+  fa -> aekooe [label=" PK "]
+
+  fa -> ages [label=" Leitung Öffentliche Gesundheit "]
+  ds -> ages [label=" Öffentliche Gesundheit "]
+  ho -> GOE [label=" arbeitet für "]
+
+  ages -> zda [label=" verbreitet "]
+
+  ms -> aekooe [label=" PK "]
+  ds -> ra [label=" PK "]
+
+  aekooe -> entd [label=" propagiert "]
+  wz -> entd [label=" propagiert "]
+  wz -> aekooe [label=" Kurienobmann-Stellvertreter "]
+  entd -> krone [label=" verbreitet "]
+
+  ds -> ampelkomm [label=" Specherin "]
+  fa -> ampelkomm [label=" Mitglied "]
+  sr -> ampelkomm [label=" Mitglied "]
+  ho -> ampelkomm [label=" Mitglied "]
+
+  ra -> BMSGPK [label=" Minister "]
+  ampelkomm -> BMSGPK [label=" berichtet an "]
+
+  fa -> Fbm
+  Fbm -> ORF
+
+  as -> ZiB2
+  as -> PunktPRERADOVIC [label=" Interview "]
+  ms -> ZiB2
+  ms -> mf [label=" \"Briefwechsel\" "]
+  ms -> CQuartett
+  ms -> NEOSlab [label=" NEOS lab talk "]
+  ms -> OEFOP [label=" Wissenschaftlicher Koordinator "]
+  ZiB2 -> ORF
+
+  mh -> iG [label=" Interview "]
+  mh -> ICI [label=" PK "]
+  as -> ICI [label=" PK "]
+  cf -> ICI [label=" PK "]
+  cs -> ICI [label=" PK "]
+  iG -> ORF
+
+  as -> DNEbM [label=" Vorsitzender "]
+
+  sr -> IWIMED [label=" Beteiligung "]
+  as -> IWIMED [label=" Beteiligung "]
+
+  sr -> ra [label=" PK für Kinder "]
+
+  ah -> TT [label=" Chefredakteurin "]
+  ah -> TirolerAdler [label=" moderiert "]
+  msNEOS -> TirolerAdler [label=" Gastredner "]
+  msNEOS -> NEOS [label=" ehem. Politiker "]
+  zda -> bmr [label=" zitiert durch "]
+  bmr -> NEOS [label=" Parteivorsitzende "]
+  NEOS -> offeneschulen [label=" Kampagne "]
+  NEOS -> NEOSlab
+  zda -> offeneschulen [label=" zitiert durch "]
+  fa -> ah [label=" Interview "]
+  ms -> ah [label=" Interview "]
+
+  pa -> Report [label=" Interview "]
+  Report -> ORF
+
+  sb -> fw [label=" Interview "]
+  mf -> CQuartett [label=" Moderator "]
+  mf -> addendum [label=" ehem. Herausgeber "]
+  sb -> CQuartett
+  pa -> CQuartett
+  CQuartett -> ServusTV
+
+  fw -> wegscheider [label=" Moderator "]
+  wegscheider -> ServusTV
+
+  zda -> pa [label=" zitiert durch "]
+}

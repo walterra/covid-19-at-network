@@ -301,7 +301,19 @@ Zu einer Einschätzung bzgl. Schulen finden sich im Pop-up des "Zahlen der AGES"
 `
 
 desc.cw = `
+Geschäftsführerin AIHTA GmbH<br/>
+Institutsmitgliedschaft Deutsches Netzwerk Evidenzbasierte Medizin (DNEbM)
+
 *"Leider gibt es nur wenige mutige Länder, etwa Schweden, die einen anderen Weg wagen."*<br/>
 *"diese lächerlichen Masken*"<br/>
 30.04.2020, [derStandard](https://www.derstandard.at/story/2000117182929/gesundheitsexpertin-es-ist-eine-angstbesetzte-politik-der-kontrolle)
+`
+
+desc.ra = `
+Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz
+
+*"Die zweite Welle ist gewaltiger als die erste. Den Grund kennen wir noch nicht."*<br/>
+21.11.2020, [krone.at](https://www.krone.at/2280749)
+
+Wer sind die Berater*innen von Rudi Anschober? Auf welche Daten und Studien stützen sie sich, welche Strategien verfolgen sie? Wie sind sie vernetzt? Diese Netzwerkanalyse tritt den Versuch an, ein wenig Einblick zu verschaffen.
 `
