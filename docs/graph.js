@@ -93,14 +93,15 @@ var rawNodes = [
 ];
 
 var rawEdges = [
-  { from: 'fa', to: 'AGES', title: 'Leitung Öffentliche Gesundheit', font: { align: "middle" } },
+  { from: 'fa', to: 'AGES', title: 'Leitung Öffentliche Gesundheit', font: { align: "middle" }, length: 30, value: 1.5 },
+  { from: 'fa', to: 'ra', title: 'Allerberger testet Anschober zumeist<br/>persönlich – inzwischen zweimal pro Woche. (25.12.2020)', font: { align: "middle" }, length: 30, value: 1.5 },
   { from: 'ds', to: 'AGES', title: 'Öffentliche Gesundheit', font: { align: "middle" } },
-  { from: 'ds', to: 'ra', title: 'PK', font: { align: "middle" } },
+  { from: 'ds', to: 'ra', title: 'PK', font: { align: "middle" }, length: 30 },
   { from: 'ra', to: 'BMSGPK', title: 'Minister', value: 2, length: 60, arrows: { middle: { enabled: false }} },
   { from: 'ÖGKJ', to: 'BMSGPK', title: 'Fachinformation für BMSGPK' },
 
   // { from: 'jbs', to: 'PK2020', title: 'Podiumsdiskussion', value: 1.3 },
-  { from: 'fa', to: 'PK2020', title: 'Vortrag', length: 30 },
+  { from: 'fa', to: 'PK2020', title: 'Vortrag' },
   { from: 'ms', to: 'PK2020', title: 'Vortrag, Organisator' },
   { from: 'ask', to: 'PK2020', title: 'Organisatorin' },
   { from: 'ask', to: 'DNEbM', title: 'Mitglied, Programmkomitee', length: 30 },

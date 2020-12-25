@@ -1,5 +1,9 @@
 # Changelog
 
+## 25.12.2020 16:00
+
+Update Franz Allerberger description, connections.
+
 ## 24.11.2020 23:00
 
 Added Rudi Anschober description.

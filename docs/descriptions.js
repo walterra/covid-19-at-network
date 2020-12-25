@@ -20,6 +20,9 @@ Vorsitzender des Deutschen Netzwerks Evidenzbasierte Medizin (DNEbM)<br/>
 `
 
 desc.fa = `
+*"Anschober ist zwar oft anderer Meinung als er, hält an seinem Haus-und-Hof-Infektiologen aber fest."*<br/>
+25.12.2020, [derStandard.at](https://www.derstandard.at/story/2000122762876/rudolf-anschober-der-corona-prediger)
+
 [Faktencheck Allerberger bei „Frühstück bei mir“](https://wieneralltag.wordpress.com/2020/10/28/tag-231-faktencheck-allerberger-bei-fruhstuck-bei-mir/)<br/>25.10.2020
 
 *"Die rinnende Nase, um es noch einmal zu sagen, haben wir aus der Falldefinition für diese neue Covid-Erkrankung herausgestrichen."*<br/>
