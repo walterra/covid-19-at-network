@@ -50,8 +50,7 @@ var rawNodes = [
   { id: 'prw', label: "Pamela Rendi-Wagner", shape: "circularImage", image: "img/pamela-rendi-wagner.jpg"},
   { id: 'ng', label: "Nicole Grois", shape: "circularImage", image: "img/dummy-female.jpg"},
   { id: 'cw', label: "Claudia Wild", shape: "circularImage", image: "img/dummy-female.jpg"},
-
-
+  { id: 'hs', label: "Hendrik Streeck", shape: "circularImage", image: "img/hendrik-streeck.jpg"},
 
   { id: 'aekooe', label: "Ärztekammer Oberösterreich", shape: "circularImage", image: "img/icon-institution.png", size: 20},
   { id: 'BMBWF', label: "BMBWF", shape: "circularImage", image: "img/icon-institution.png", size: 20},
@@ -175,6 +174,11 @@ var rawEdges = [
   { from: 'fa', to: 'TT', title: 'Interview Tiroler Tageszeitung' },
   { from: 'ms', to: 'TT', title: 'Interview Tiroler Tageszeitung' },
 
+  { from: 'hs', to: 'TirolerAdler', title: 'Distance Talk'},
+
+  // https://www.facebook.com/GrazPublicHealth/posts/5051991171493223
+  { from: 'ms', to: 'hs', title: 'Martin Sprenger: „Streeck gefällt mir“'},
+
   { from: 'msNeos', to: 'TirolerAdler', title: 'Gastredner Tiroler Adler Forum' },
   { from: 'msNeos', to: 'NEOS', title: 'ehem. Politiker' },
   { from: 'bmr', to: 'NEOS', title: 'Parteivorsitzende', length: 30, value: 1.3 },
@@ -197,3 +201,7 @@ var rawEdges = [
   { from: 'AIHTA', to: 'DNEbM', title: 'Partner' },
   { from: 'SW', to: 'cw', title: 'Leider gibt es nur wenige mutige Länder, etwa Schweden, die einen anderen Weg wagen.' },
 ];
+
+// global for node scripts
+getRawNodes = () => rawNodes;
+getRawEdges = () => rawEdges;

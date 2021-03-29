@@ -1,5 +1,9 @@
 # Changelog
 
+## 30.03.2021 01:40
+
+Update Hendrik Streeck description, connections.
+
 ## 25.12.2020 16:00
 
 Update Franz Allerberger description, connections.

@@ -320,3 +320,25 @@ Bundesminister für Soziales, Gesundheit, Pflege und Konsumentenschutz
 
 Wer sind die Berater*innen von Rudi Anschober? Auf welche Daten und Studien stützen sie sich, welche Strategien verfolgen sie? Wie sind sie vernetzt? Diese Netzwerkanalyse tritt den Versuch an, ein wenig Einblick zu verschaffen.
 `
+
+desc.hs = `
+Mediziner
+
+Wurde durch die "Heinsberg-Studie" bekannt, seitdem vielgesehener Talkshowgast.
+
+*"Der Virologe Hendrik Streeck rechnet in Deutschland nicht mit einer zweiten Infektionswelle."*<br/>
+29.05.2020, [ZDFheute Nachrichten](https://www.youtube.com/watch?v=8Ct4uyvIiy0)
+
+*"Wie kann es sein, dass ein Wissenschaftler, der so oft danebenliegt, ständig in Talkshows eingeladen wird?"*<br/>
+09.02.2021, [RiffReporter](https://www.riffreporter.de/de/wissen/corona-streeck-fehler-talkshows-uebermedien)
+
+Die Tiroler Adler Runde hat sich diese Frage offenbar nicht gestellt und ihn im November 2020, also am Höhepunkt der 2ten Welle in Österreich, „exklusiv“ zu einem „Distance-Talk“ eingeladen. Sie stellt ihn auf der eigenen Website so vor:
+
+<i>
+Seit März 2020 präsentiert er unaufgeregte Gegenentwürfe zu apokalyptischen Pandemie-Szenarien und lässt mit konstruktiven, machbaren Vorschlägen aufhorchen: Prof. Dr. Hendrik Streeck.
+
+Heinsberg-Studie, differenzierte Betrachtungen bereits zum ersten Lockdown und nicht zuletzt „Gegenpool“ zu Dr. Christian Drosten – Prof Dr. Hendrik Streecks ist wohl eine der bekanntesten Stimmen, die in Deutschland rund um Corona Stellung beziehen. Seine pragmatische Herangehensweise an die Pandemie gefällt nicht jedem und scheint doch ein möglicher Weg, um Gesundheit, Gesellschaft und Wirtschaft zu stabilisieren.
+
+Exklusiv und erstmals in Tirol ist Prof. Dr. Hendrik Streeck auf Einladung der Tiroler Adler Runde für einen Distance-Talk mit Moderatorin und Journalistin Anita Heubacher zu Gast.
+</i>
+`
