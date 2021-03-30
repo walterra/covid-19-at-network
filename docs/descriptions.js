@@ -335,10 +335,6 @@ Wurde durch die "Heinsberg-Studie" bekannt, seitdem vielgesehener Talkshowgast.
 Die Tiroler Adler Runde hat sich diese Frage offenbar nicht gestellt und ihn im November 2020, also am Höhepunkt der 2ten Welle in Österreich, „exklusiv“ zu einem „Distance-Talk“ eingeladen. Sie stellt ihn auf der eigenen Website so vor:
 
 <i>
-Seit März 2020 präsentiert er unaufgeregte Gegenentwürfe zu apokalyptischen Pandemie-Szenarien und lässt mit konstruktiven, machbaren Vorschlägen aufhorchen: Prof. Dr. Hendrik Streeck.
-
-Heinsberg-Studie, differenzierte Betrachtungen bereits zum ersten Lockdown und nicht zuletzt „Gegenpool“ zu Dr. Christian Drosten – Prof Dr. Hendrik Streecks ist wohl eine der bekanntesten Stimmen, die in Deutschland rund um Corona Stellung beziehen. Seine pragmatische Herangehensweise an die Pandemie gefällt nicht jedem und scheint doch ein möglicher Weg, um Gesundheit, Gesellschaft und Wirtschaft zu stabilisieren.
-
-Exklusiv und erstmals in Tirol ist Prof. Dr. Hendrik Streeck auf Einladung der Tiroler Adler Runde für einen Distance-Talk mit Moderatorin und Journalistin Anita Heubacher zu Gast.
+Exklusiv und erstmals in Tirol war Prof. Dr. Hendrik Streeck auf Einladung der Tiroler Adler Runde für einen Distance-Talk mit Moderatorin und Journalistin Anita Heubacher zu Gast. Der Virologe gewährte dabei nicht nur spannende Einblicke in seine Arbeit, sondern präsentierte auch seine seit März 2020 unaufgeregten Gegenentwürfe zu apokalyptischen Pandemie-Szenarien und lässt mit konstruktiven, machbaren Vorschlägen aufhorchen. Heinsberg-Studie, differenzierte Betrachtungen bereits zum ersten Lockdown und nicht zuletzt „Gegenpol“ zu Dr. Christian Drosten – Prof. Dr. Hendrik Streeck ist wohl eine der bekanntesten Stimmen, die in Deutschland rund um Corona Stellung beziehen. Seine pragmatische Herangehensweise an die Pandemie gefällt nicht jedem und scheint doch ein möglicher Weg, um Gesundheit, Gesellschaft und Wirtschaft zu stabilisieren.
 </i>
 `

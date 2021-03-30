@@ -1,5 +1,9 @@
 # Changelog
 
+## 30.03.2021 02:00
+
+Update Hendrik Streeck description.
+
 ## 30.03.2021 01:40
 
 Update Hendrik Streeck description, connections.
