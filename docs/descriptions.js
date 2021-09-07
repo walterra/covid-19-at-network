@@ -252,6 +252,9 @@ Politiker (FPÖ)
 
 *Kickl behauptet, dass die Koalition eine "zweite Welle" her-teste. Schweden sei ohne einschränkende Maßnahmen viel besser gefahren.*<br/>
 23.09.2020, [Die Presse](https://www.diepresse.com/5871355/nationalrat-untergriffige-debatte-uber-corona-gesetze)
+
+*"Wir alle haben ein intaktes Immunsystem, und ein intaktes Immunsystem macht den Menschen stark gegen jede Art von Virus und all die Mutationen, die jetzt von irgendwoher neu entdeckt worden sind."*<br/>
+21.04.2021, [derStandard.at](https://www.derstandard.at/story/2000126000156/die-wurzeln-der-impfverweigerer)
 `
 
 desc.prw = `
@@ -337,4 +340,44 @@ Die Tiroler Adler Runde hat sich diese Frage offenbar nicht gestellt und ihn im 
 <i>
 Exklusiv und erstmals in Tirol war Prof. Dr. Hendrik Streeck auf Einladung der Tiroler Adler Runde für einen Distance-Talk mit Moderatorin und Journalistin Anita Heubacher zu Gast. Der Virologe gewährte dabei nicht nur spannende Einblicke in seine Arbeit, sondern präsentierte auch seine seit März 2020 unaufgeregten Gegenentwürfe zu apokalyptischen Pandemie-Szenarien und lässt mit konstruktiven, machbaren Vorschlägen aufhorchen. Heinsberg-Studie, differenzierte Betrachtungen bereits zum ersten Lockdown und nicht zuletzt „Gegenpol“ zu Dr. Christian Drosten – Prof. Dr. Hendrik Streeck ist wohl eine der bekanntesten Stimmen, die in Deutschland rund um Corona Stellung beziehen. Seine pragmatische Herangehensweise an die Pandemie gefällt nicht jedem und scheint doch ein möglicher Weg, um Gesundheit, Gesellschaft und Wirtschaft zu stabilisieren.
 </i>
+`
+
+desc.KIDS = `
+Petition vom Mai 2021 mit der Forderung ["Uneingeschränkte Öffnung der Schulen und Kindergärten in Österreich"](https://www.openpetition.eu/at/petition/online/uneingeschraenkte-oeffnung-der-schulen-und-kindergaerten-in-oesterreich).
+
+Initiiert von Martin Sprenger, Ulrike Gutkas und Oliver Lerch
+
+In einem [offenen Brief](https://datenschutz4you.community/download/551/) fordert man <i>"normalen Schulbetrieb unabhängig vom Infektionsgeschehen"</i> und die Einstellungen von Massnahmen wie <i>"Massentestungen von asymptomatischen Kindern und Jugendlichen, Tragen von Mund-Nasenschutz in Kindergärten und Volksschulen, FFP2-Maskenpflicht für SchülerInnen ab der Sekundarstufe</i>".
+
+Unterzeichner Offener Brief: Petra Apfalter, Ulrike Guérot, Erwin Wagenhofer, Judith Raunig, Alexander Antonitsch, Manuel Schabus, Felix Gottwald u.a.
+
+[www.kinder-in-die-schule.at](https://kinder-in-die-schule.at/)
+`
+
+desc.rk = `
+Generalsekretär der ÖGKJ
+
+<i>"Für Kerbl sind Länder wie Schweden, die Schweiz oder Dänemark gute Beispiele dafür, dass die Pandemie auch ohne langfristige und wiederholte Schulschließungen gemanagt werden kann."</i><br/>
+12.1.2021, [derStandard.at](https://www.derstandard.de/story/2000123194715/datenlage-keine-evidenz-fuer-geschlossene-schulen) Detail: Der Artikel hatte ursprünglich den Titel <i>"Für Schulschließungen gibt es keine Evidenz"</i> und wurde später in <i>"Rolle von Kindern und Jugendlichen in der Corona-Pandemie umstritten"</i> geändert.
+
+<i>"Für Kinderarzt Reinhold Kerbl, Generalsekretär der Österreichischen Gesellschaft für Kinder- und Jugendheilkunde (ÖGKJ), ist die Antwort relativ klar: Corona wird zur „Ganzjahresgrippe“ und zu einer Kinderkrankheit."</i><br/>
+18.8.2021, [diepresse.at](https://www.diepresse.com/6022597/wie-corona-zur-kinderkrankheit-mutiert)
+
+<i>"Long Covid mag bei Erwachsenen eine Bedeutung haben, bei Kindern, glaube ich, dass dieser Begriff deutlich überbewertet wird. Die Kinder haben Symptome, die sie auch ohne Viruserkrankung haben, Kopfschmerzen, Müdigkeit, Traurigkeit und diese Symptome kann man durchaus ohne eine Infektion, also alleine durch die Situation, haben."</i><br/>
+20.8.2021, [ZiB 2](https://tvthek.orf.at/transcripts/show/1179777)
+
+Im weiteren Verlauf des Interviews gibt Kerbl in etwa das Konzept der "Focused Protection" der Great Barrington Declaration wieder:<br/>
+<i>"Jetzt sind aber diese Menschen (ältere) geschützt [...] und jetzt kann man, meines Erachtens, durchaus auch höhere Infektionszahlen zulassen und eine gewisse Grundinfektionsrate in der Population zulassen. Wir machen das bei Influenza, [...], eigentlich bei allen anderen Infektionskrankheiten. Ich glaube, das kann eben jetzt auch für Corona gelten."</i><br/>
+20.8.2021, [ZiB 2](https://tvthek.orf.at/transcripts/show/1179777)
+`
+
+desc.ks = `
+Leitende Kinder- und Jugendpsychiaterin am Wiener AKH
+
+<i>"Die Geschichte vom Superspreader-Kind ist ein Ammenmärchen. Im schulischen Kontext ist es vielmehr so, dass die Lehrer die Kinder anstecken. Bei Kindern hat Covid minimale Auswirkungen."</i><br/>
+7.7.2021, [profil.at](https://www.profil.at/gesellschaft/kinderpsychiaterin-nie-wieder-die-schulen-schliessen/401436508)
+
+<i>"Man sollte endlich die Kinder in Ruhe lassen. Sie spielen keine relevante Rolle bei diesem Thema."</i><br/>
+Trailer "Eine andere Freiheit", [youtube.com](https://www.youtube.com/watch?v=G4xBCWInJqo)
+
 `

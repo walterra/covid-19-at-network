@@ -1,29 +1,8 @@
 var rawNodes = [
-  {
-    id: 'fa',
-    label: "Franz Allerberger",
-    shape: "circularImage",
-    image: "img/franz-allerberger.jpg"
-  },
-  {
-    id: 'ms',
-    label: "Martin Sprenger",
-    shape: "circularImage",
-    image: "img/martin-sprenger.jpg"
-  },
-  {
-    id: 'pa',
-    label: "Petra Apfalter",
-    shape: "circularImage",
-    image: "img/petra-apfalter.jpg"
-  },
-  {
-    id: 'sr',
-    label: "Susanne Rabady",
-    shape: "circularImage",
-    image: "img/susanne-rabady.jpg"
-  },
-
+  { id: 'fa', label: "Franz Allerberger", shape: "circularImage", image: "img/franz-allerberger.jpg" },
+  { id: 'ms', label: "Martin Sprenger", shape: "circularImage", image: "img/martin-sprenger.jpg" },
+  { id: 'pa', label: "Petra Apfalter", shape: "circularImage", image: "img/petra-apfalter.jpg" },
+  { id: 'sr', label: "Susanne Rabady", shape: "circularImage", image: "img/susanne-rabady.jpg" },
   { id: 'jr', label: "Johannes Rath", shape: "circularImage", image: "img/dummy-male.jpg" },
   { id: 'gw', label: "Günter Weiss", shape: "circularImage", image: "img/guenter-weiss.jpg" },
   { id: 'sb', label: "Sucharit Bhakdi", shape: "circularImage", image: "img/sucharit-bhakdi.jpg" },
@@ -36,67 +15,81 @@ var rawNodes = [
   { id: 'as', label: "Andreas Sönnichsen", shape: "circularImage", image: "img/andreas-soennichsen.jpg" },
   { id: 'wz', label: "Wolfgang Ziegler", shape: "circularImage", image: "img/wolfgang-ziegler.jpg" },
   { id: 'ra', label: "Rudi Anschober", shape: "circularImage", image: "img/rudi-anschober.jpg" },
-  { id: 'hf', label: "Heinz Faßmann", shape: "circularImage", image: "img/heinz-fassmann.jpg"},
-  { id: 'hk', label: "Herbert Kickl", shape: "circularImage", image: "img/herbert-kickl.jpg"},
-  { id: 'sk', label: "Sebastian Kurz", shape: "circularImage", image: "img/sebastian-kurz.jpg"},
+  { id: 'hf', label: "Heinz Faßmann", shape: "circularImage", image: "img/heinz-fassmann.jpg" },
+  { id: 'hk', label: "Herbert Kickl", shape: "circularImage", image: "img/herbert-kickl.jpg" },
+  { id: 'sk', label: "Sebastian Kurz", shape: "circularImage", image: "img/sebastian-kurz.jpg" },
 
   // { id: 'jbs', label: "Juliane Bogner-Strauß", shape: "circularImage",
   //   image: "img/dummy-female.jpg"
   // },
-  { id: 'ask', label: "Andrea Siebenhofer-Kroitzsch", shape: "circularImage", image: "img/andrea-siebenhofer-kroitzsch.jpg"},
-  { id: 'ds', label: "Daniela Schmid", shape: "circularImage", image: "img/daniela-schmid.jpg"},
-  { id: 'ah', label: "Anita Heubacher", shape: "circularImage", image: "img/anita-heubacher.jpg"},
-  { id: 'bmr', label: "Beate Meinl-Reisinger", shape: "circularImage", image: "img/beate-meinl-reisinger.jpg"},
-  { id: 'prw', label: "Pamela Rendi-Wagner", shape: "circularImage", image: "img/pamela-rendi-wagner.jpg"},
-  { id: 'ng', label: "Nicole Grois", shape: "circularImage", image: "img/dummy-female.jpg"},
-  { id: 'cw', label: "Claudia Wild", shape: "circularImage", image: "img/dummy-female.jpg"},
-  { id: 'hs', label: "Hendrik Streeck", shape: "circularImage", image: "img/hendrik-streeck.jpg"},
+  { id: 'ask', label: "Andrea Siebenhofer-Kroitzsch", shape: "circularImage", image: "img/andrea-siebenhofer-kroitzsch.jpg" },
+  { id: 'ds', label: "Daniela Schmid", shape: "circularImage", image: "img/daniela-schmid.jpg" },
+  { id: 'ah', label: "Anita Heubacher", shape: "circularImage", image: "img/anita-heubacher.jpg" },
+  { id: 'bmr', label: "Beate Meinl-Reisinger", shape: "circularImage", image: "img/beate-meinl-reisinger.jpg" },
+  { id: 'prw', label: "Pamela Rendi-Wagner", shape: "circularImage", image: "img/pamela-rendi-wagner.jpg" },
+  { id: 'ng', label: "Nicole Grois", shape: "circularImage", image: "img/dummy-female.jpg" },
+  { id: 'cw', label: "Claudia Wild", shape: "circularImage", image: "img/claudia-wild.jpg" },
+  { id: 'hs', label: "Hendrik Streeck", shape: "circularImage", image: "img/hendrik-streeck.jpg" },
+  { id: 'jr2', label: "Judith Raunig", shape: "circularImage", image: "img/dummy-female.jpg" },
+  // Generalsekretär der ÖGKJ
+  { id: 'rk', label: "Reinhold Kerbl", shape: "circularImage", image: "img/reinhold-kerbl.jpg" },
+  { id: 'ks', label: "Katrin Skala", shape: "circularImage", image: "img/dummy-female.jpg" },
+  { id: 'ug', label: "Ulrike Guérot", shape: "circularImage", image: "img/ulrike-guerot.jpg" },
 
-  { id: 'aekooe', label: "Ärztekammer Oberösterreich", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'BMBWF', label: "BMBWF", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'BMSGPK', label: "BMSGPK", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'AGES', label: "AGES", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'OEFOP', label: "OEFOP", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'ICI', label: "Initiative evidenzbasierte\nCorona-Information", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'ampelkomm', label: "Ampel-Kommission", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'DNEbM', label: "Netzwerk\nevidenzbasierte\nMedizin", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'TirolerAdler', label: "Tiroler Adler", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'NEOS', label: "NEOS", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'FPOE', label: "FPÖ", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'OEVP', label: "ÖVP", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'SPOE', label: "SPÖ", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'AIHTA', label: "AIHTA", shape: "circularImage", image: "img/icon-institution.png", size: 20},
+  { id: 'aekooe', label: "Ärztekammer Oberösterreich", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'BMBWF', label: "BMBWF", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'BMSGPK', label: "BMSGPK", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'AGES', label: "AGES", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'OEFOP', label: "OEFOP", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'ICI', label: "Initiative evidenzbasierte\nCorona-Information", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'ampelkomm', label: "Ampel-Kommission", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'DNEbM', label: "Netzwerk\nevidenzbasierte\nMedizin", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'TirolerAdler', label: "Tiroler Adler", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'NEOS', label: "NEOS", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'FPOE', label: "FPÖ", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'OEVP', label: "ÖVP", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'SPOE', label: "SPÖ", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'AIHTA', label: "AIHTA", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
 
-  { id: 'IWIMED', label: "IWIMED GmbH", shape: "circularImage", image: "img/icon-company.png", size: 20},
+  { id: 'IWIMED', label: "IWIMED GmbH", shape: "circularImage", image: "img/icon-company.png", size: 20 },
 
-  { id: 'GBD', label: "Great Barrington\nDeclaration", shape: "circularImage", image: "img/icon-media.png", size: 20},
-  { id: 'offeneschulen', label: "offeneschulen.at", shape: "circularImage", image: "img/icon-media.png", size: 20},
-  { id: 'krone', label: "krone.at", shape: "circularImage", image: "img/icon-media.png", size: 20},
-  { id: 'ORF', label: "ORF", shape: "circularImage", image: "img/icon-media.png", size: 20},
-  { id: 'ServusTV', label: "Servus TV", shape: "circularImage", image: "img/icon-media.png", size: 20},
-  { id: 'NEOSlab', label: "NEOS lab", shape: "circularImage", image: "img/icon-media.png", size: 20},
-  { id: 'TT', label: "Tiroler Tageszeitung", shape: "circularImage", image: "img/icon-media.png", size: 20},
-  { id: 'PunktPRERADOVIC', label: "Punkt.PRERADOVIC", shape: "circularImage", image: "img/icon-media.png", size: 20},
-  { id: 'EbMGL', label: "EbM-Guidelines", shape: "circularImage", image: "img/icon-media.png", size: 20},
-  { id: 'wochenblick', label: "Wochenblick", shape: "circularImage", image: "img/icon-media.png", size: 20},
-  { id: 'PPR', label: "Purkarthofer PR", shape: "circularImage", image: "img/icon-company.png", size: 20},
-  { id: 'ppc', label: "ppc training", shape: "circularImage", image: "img/icon-company.png", size: 20},
-  { id: 'AMS', label: "AMS", shape: "circularImage", image: "img/icon-institution.png", size: 20},
-  { id: 'ÖGKJ', label: "ÖGKJ", shape: "circularImage", image: "img/icon-institution.png", size: 20},
+  { id: 'GBD', label: "Great Barrington\nDeclaration", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'offeneschulen', label: "offeneschulen.at", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'krone', label: "krone.at", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'ORF', label: "ORF", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'ServusTV', label: "Servus TV", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'NEOSlab', label: "NEOS lab", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'TT', label: "Tiroler Tageszeitung", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'PunktPRERADOVIC', label: "Punkt.PRERADOVIC", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'EbMGL', label: "EbM-Guidelines", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'wochenblick', label: "Wochenblick", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'eine-andere-freiheit', label: "Eine andere Freiheit", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'KIDS', label: 'kinder-in-die-schule.at', shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'LOCKDOWN-KINDERRECHTE', label: 'LOCKDOWN KINDERRECHTE', shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'ET', label: 'Epoch Times', shape: "circularImage", image: "img/icon-media.png", size: 20 },
 
-  { id: 'zda', label: '"Zahlen der AGES"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
-  { id: 'entd', label: '"Entdämonisierung"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
-  { id: 'SW', label: '"Schwedischer Weg"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20},
+  { id: 'PPR', label: "Purkarthofer PR", shape: "circularImage", image: "img/icon-company.png", size: 20 },
+  { id: 'ppc', label: "ppc training", shape: "circularImage", image: "img/icon-company.png", size: 20 },
+  { id: 'AMS', label: "AMS", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'ÖGKJ', label: "ÖGKJ", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'dieBasis', label: "dieBasis", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'RP', label: "Respekt.plus", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
 
-  { id: 'PK2020', label: 'Primärversorgungs-\nKongress 2020', shape: "circularImage", image: "img/icon-event.png", size: 20},
+  { id: 'zda', label: '"Zahlen der AGES"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20 },
+  { id: 'entd', label: '"Entdämonisierung"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20 },
+  { id: 'SW', label: '"Schwedischer Weg"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20 },
+
+  { id: 'PK2020', label: 'Primärversorgungs-\nKongress 2020', shape: "circularImage", image: "img/icon-event.png", size: 20 },
 ];
 
 var rawEdges = [
   { from: 'fa', to: 'AGES', title: 'Leitung Öffentliche Gesundheit', font: { align: "middle" }, length: 30, value: 1.5 },
+  // Faßmann-PK zu Tests an Schulen https://orf.at/stories/3196627/
+  { from: 'fa', to: 'hf', title: 'Faßmann-PK zu Tests an Schulen (9.1.2021)' },
   { from: 'fa', to: 'ra', title: 'Allerberger testet Anschober zumeist<br/>persönlich – inzwischen zweimal pro Woche. (25.12.2020)', font: { align: "middle" }, length: 30, value: 1.5 },
   { from: 'ds', to: 'AGES', title: 'Öffentliche Gesundheit', font: { align: "middle" } },
   { from: 'ds', to: 'ra', title: 'PK', font: { align: "middle" }, length: 30 },
-  { from: 'ra', to: 'BMSGPK', title: 'Minister', value: 2, length: 60, arrows: { middle: { enabled: false }} },
+  { from: 'ra', to: 'BMSGPK', title: 'Minister', value: 2, length: 60, arrows: { middle: { enabled: false } } },
   { from: 'ÖGKJ', to: 'BMSGPK', title: 'Fachinformation für BMSGPK' },
 
   // { from: 'jbs', to: 'PK2020', title: 'Podiumsdiskussion', value: 1.3 },
@@ -114,28 +107,45 @@ var rawEdges = [
   { from: 'AGES', to: 'zda' },
 
   { from: 'mh', to: 'ORF', title: 'Ö1 Im Gespräch' },
-  { from: 'fa', to: 'wochenblick', title: 'Artikel zu Frühstück bei mir' }, // https://www.wochenblick.at/ages-infektiologe-allerberger-jeder-wird-das-corona-virus-bekommen/
-  { from: 'mh', to: 'wochenblick', title: 'Artikel' }, // https://www.wochenblick.at/ages-infektiologe-allerberger-jeder-wird-das-corona-virus-bekommen/
+  { from: 'mh', to: 'ServusTV', title: 'Auf der Suche nach der Wahrheit' },
+  { from: 'mh', to: 'RP', title: 'Mitgründer' },
+  // Martin Haditsch Interview Epoch Times https://www.youtube.com/watch?v=MaL0ZgcVvGg
+  { from: 'mh', to: 'ET', title: 'Mitgründer' },
+  // https://www.wochenblick.at/ages-infektiologe-allerberger-jeder-wird-das-corona-virus-bekommen/
+  { from: 'fa', to: 'wochenblick', title: 'Artikel zu Frühstück bei mir' },
+  { from: 'mh', to: 'wochenblick', title: 'Artikel' },
   { from: 'wochenblick', to: 'hk', title: 'Martin-Haditsch-Artikel zitiert durch' },
   { from: 'hk', to: 'FPOE', title: 'geschäftsführender Klubobmann' },
   { from: 'SW', to: 'hk', title: '"Schweden sei ohne einschränkende Maßnahmen viel besser gefahren."' },
   { from: 'fa', to: 'ORF', title: 'Frühstück bei mir' },
   { from: 'as', to: 'ORF', title: 'ZiB 2 Interview' },
+
   { from: 'ms', to: 'ORF', title: 'ZiB 2 Interview' },
   { from: 'ms', to: 'mf', title: '"Briefwechsel"' },
   { from: 'ms', to: 'ServusTV', title: 'Corona Quartett' },
   { from: 'ms', to: 'NEOSlab', title: 'Studiogast' },
   { from: 'ms', to: 'OEFOP', title: 'Wissenschaftlicher Koordinator' },
+  { from: 'ms', to: 'KIDS', title: 'Initiator' },
+  { from: 'ms', to: 'eine-andere-freiheit', title: 'Interview' },
+  { from: 'ms', to: 'LOCKDOWN-KINDERRECHTE', title: 'Credit' },
+
+  { from: 'jr2', to: 'KIDS', title: 'Unterzeichnerin Offnener Brief' },
+  { from: 'jr2', to: 'LOCKDOWN-KINDERRECHTE', title: '"Ein Dokumentarfilm von Patricia Marchart und Judith Raunig"' },
+
   { from: 'mh', to: 'PunktPRERADOVIC', title: 'Youtube Interview', length: 60 },
   { from: 'as', to: 'PunktPRERADOVIC', title: 'Youtube Interview: "Wir brauchen das schwedische Modell"', length: 60 },
   { from: 'as', to: 'SW', title: 'Youtube Interview: "Wir brauchen das schwedische Modell"', length: 60 },
 
   { from: 'gw', to: 'DNEbM', title: 'Zitat OEGIT' },
   { from: 'gw', to: 'TT', title: 'Interview mit Anita Heubacher' },
+
   { from: 'as', to: 'EbMGL', title: 'Autor' },
   { from: 'as', to: 'DNEbM', title: 'Vorsitzender', value: 1.3 },
   { from: 'as', to: 'GBD', title: 'Unterzeichner' },
   { from: 'as', to: 'IWIMED', title: 'Beteiligung' },
+  { from: 'as', to: 'LOCKDOWN-KINDERRECHTE', title: 'Credit' },
+  { from: 'as', to: 'dieBasis', title: 'Bundestagsdirektkandidat für dieBasis' },
+
   { from: 'sr', to: 'EbMGL', title: 'Autorin' },
   { from: 'sr', to: 'IWIMED', title: 'Beteiligung' },
   { from: 'sr', to: 'ra', title: 'PK für Kinder' },
@@ -163,6 +173,8 @@ var rawEdges = [
   { from: 'pa', to: 'hf', title: 'PK' },
   { from: 'pa', to: 'ORF', title: 'ORF Report Interview' },
   { from: 'pa', to: 'SW', title: '"Schweden ist einen sehr guten Weg gegangen"' },
+  { from: 'pa', to: 'KIDS', title: 'Unterzeichnerin Offener Brief' },
+
   { from: 'fa', to: 'SW', title: 'Einladung Anders Tegnell', length: 30 },
   { from: 'hf', to: 'BMBWF' },
   { from: 'hf', to: 'OEVP' },
@@ -174,10 +186,10 @@ var rawEdges = [
   { from: 'fa', to: 'TT', title: 'Interview Tiroler Tageszeitung' },
   { from: 'ms', to: 'TT', title: 'Interview Tiroler Tageszeitung' },
 
-  { from: 'hs', to: 'TirolerAdler', title: 'Distance Talk'},
+  { from: 'hs', to: 'TirolerAdler', title: 'Distance Talk' },
 
   // https://www.facebook.com/GrazPublicHealth/posts/5051991171493223
-  { from: 'ms', to: 'hs', title: 'Martin Sprenger: „Streeck gefällt mir“'},
+  { from: 'ms', to: 'hs', title: 'Martin Sprenger: „Streeck gefällt mir“' },
 
   { from: 'msNeos', to: 'TirolerAdler', title: 'Gastredner Tiroler Adler Forum' },
   { from: 'msNeos', to: 'NEOS', title: 'ehem. Politiker' },
@@ -190,9 +202,11 @@ var rawEdges = [
   { from: 'zda', to: 'prw', title: 'zitiert durch' },
 
   { from: 'sb', to: 'fw', title: 'Interview' },
+  { from: 'sb', to: 'ServusTV', title: 'Gast Corona Quartett' },
+  { from: 'sb', to: 'dieBasis', title: 'Kandidatur Bundestagswahl' },
+
   { from: 'fw', to: 'ServusTV', title: 'Moderator Der Wegscheider', value: 1.3 },
   { from: 'pa', to: 'ServusTV', title: 'Gast Corona Quartett' },
-  { from: 'sb', to: 'ServusTV', title: 'Gast Corona Quartett' },
   { from: 'mf', to: 'ServusTV', title: 'Moderator Corona Quartett' },
 
   { from: 'BMSGPK', to: 'AIHTA', title: 'Gesellschafter' },
@@ -200,6 +214,29 @@ var rawEdges = [
   { from: 'cw', to: 'DNEbM', title: 'Institutsmitgliedschaft', length: 30 },
   { from: 'AIHTA', to: 'DNEbM', title: 'Partner' },
   { from: 'SW', to: 'cw', title: 'Leider gibt es nur wenige mutige Länder, etwa Schweden, die einen anderen Weg wagen.' },
+
+  { from: 'rk', to: 'eine-andere-freiheit', title: 'Interview' },
+  { from: 'rk', to: 'SW', title: 'Länder wie Schweden gute Beispiele' },
+  { from: 'rk', to: 'ÖGKJ', title: 'Generalsekretär' },
+  // Faßmann-PK zu Tests an Schulen https://orf.at/stories/3196627/
+  { from: 'rk', to: 'hf', title: 'Faßmann-PK zu Tests an Schulen (9.1.2021)' },
+  { from: 'rk', to: 'ORF', title: 'ZiB 2 Interview' },
+
+  { from: 'ks', to: 'eine-andere-freiheit', title: 'Interview' },
+  { from: 'cf', to: 'eine-andere-freiheit', title: 'Credit' },
+
+  { from: 'ug', to: 'eine-andere-freiheit', title: 'Interview' },
+  { from: 'ug', to: 'ServusTV', title: 'diverse Talk-Show-Einladungen' },
+  // https://www.diepresse.com/5987129/ein-bisschen-servus-tv-bei-im-zentrum-aber-mit-minister
+  { from: 'ug', to: 'ORF', title: 'Im Zentrum 31.5.2021' },
+
+  { from: 'cs', to: 'eine-andere-freiheit', title: 'Credit' },
+
+  { from: 'ks', to: 'LOCKDOWN-KINDERRECHTE', title: 'Credit' },
+  { from: 'cs', to: 'LOCKDOWN-KINDERRECHTE', title: 'Credit' },
+  { from: 'cs', to: 'GBD', title: 'Unterzeichner' },
+  { from: 'cf', to: 'LOCKDOWN-KINDERRECHTE', title: '"in Cooperation mit"' },
+  { from: 'ICI', to: 'LOCKDOWN-KINDERRECHTE', title: '"mit freundlicher Unterstützung"' },
 ];
 
 // global for node scripts

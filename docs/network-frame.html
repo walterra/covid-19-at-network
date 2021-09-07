@@ -108,8 +108,21 @@
         edges: edges,
       };
       var options = {
+        autoResize: true,
         clickToUse: false,
-        physics: true,
+        physics: {
+          enabled: true,
+          solver: 'forceAtlas2Based',
+          forceAtlas2Based: {
+            // theta: 0.001,
+            // gravitationalConstant: -200,
+            centralGravity: 0.015,
+            // springConstant: 0.8,
+            // springLength: 200,
+            // damping: 1,
+            // avoidOverlap: 1
+          },
+        },
         nodes: {
           borderWidth: 3,
           size: 25,
@@ -123,10 +136,9 @@
         edges: {
           color: "#666",
           width: 2,
-          length: 150,
           value: 1,
           shadow: true,
-          arrows: { middle: { enabled: true, scaleFactor: 0.3 }}
+          arrows: { middle: { enabled: true, scaleFactor: 0.2 }}
         },
         layout: {
           randomSeed: 12341
