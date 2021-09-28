@@ -35,6 +35,9 @@ var rawNodes = [
   { id: 'rk', label: "Reinhold Kerbl", shape: "circularImage", image: "img/reinhold-kerbl.jpg" },
   { id: 'ks', label: "Katrin Skala", shape: "circularImage", image: "img/dummy-female.jpg" },
   { id: 'ug', label: "Ulrike Guérot", shape: "circularImage", image: "img/ulrike-guerot.jpg" },
+  { id: 'gp', label: "Gerhard Pöttler", shape: "circularImage", image: "img/dummy-male.jpg" },
+  { id: 'gk', label: "Gunnar Kaiser", shape: "circularImage", image: "img/dummy-male.jpg" },
+  { id: 'cfACTA', label: "Christian Felber", shape: "circularImage", image: "img/dummy-male.jpg" },
 
   { id: 'aekooe', label: "Ärztekammer Oberösterreich", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'BMBWF', label: "BMBWF", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
@@ -50,6 +53,7 @@ var rawNodes = [
   { id: 'OEVP', label: "ÖVP", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'SPOE', label: "SPÖ", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'AIHTA', label: "AIHTA", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'CA', label: "Corona-Aussöhnung", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
 
   { id: 'IWIMED', label: "IWIMED GmbH", shape: "circularImage", image: "img/icon-company.png", size: 20 },
 
@@ -67,6 +71,8 @@ var rawNodes = [
   { id: 'KIDS', label: 'kinder-in-die-schule.at', shape: "circularImage", image: "img/icon-media.png", size: 20 },
   { id: 'LOCKDOWN-KINDERRECHTE', label: 'LOCKDOWN KINDERRECHTE', shape: "circularImage", image: "img/icon-media.png", size: 20 },
   { id: 'ET', label: 'Epoch Times', shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'kaisertv', label: "kaisertv.de", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'KURIER', label: "Kurier", shape: "circularImage", image: "img/icon-media.png", size: 20 },
 
   { id: 'PPR', label: "Purkarthofer PR", shape: "circularImage", image: "img/icon-company.png", size: 20 },
   { id: 'ppc', label: "ppc training", shape: "circularImage", image: "img/icon-company.png", size: 20 },
@@ -74,6 +80,8 @@ var rawNodes = [
   { id: 'ÖGKJ', label: "ÖGKJ", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'dieBasis', label: "dieBasis", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'RP', label: "Respekt.plus", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'MFG', label: "MFG", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'ZK', label: "Zukunftskonferenz 2021", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
 
   { id: 'zda', label: '"Zahlen der AGES"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20 },
   { id: 'entd', label: '"Entdämonisierung"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20 },
@@ -131,6 +139,8 @@ var rawEdges = [
 
   { from: 'jr2', to: 'KIDS', title: 'Unterzeichnerin Offnener Brief' },
   { from: 'jr2', to: 'LOCKDOWN-KINDERRECHTE', title: '"Ein Dokumentarfilm von Patricia Marchart und Judith Raunig"' },
+  { from: 'jr2', to: 'ORF', title: 'Im Zentrum 20.09.2021' },
+  { from: 'jr2', to: 'ServusTV', title: 'Talk im Hangar-7 19.09.2021' },
 
   { from: 'mh', to: 'PunktPRERADOVIC', title: 'Youtube Interview', length: 60 },
   { from: 'as', to: 'PunktPRERADOVIC', title: 'Youtube Interview: "Wir brauchen das schwedische Modell"', length: 60 },
@@ -145,6 +155,7 @@ var rawEdges = [
   { from: 'as', to: 'IWIMED', title: 'Beteiligung' },
   { from: 'as', to: 'LOCKDOWN-KINDERRECHTE', title: 'Credit' },
   { from: 'as', to: 'dieBasis', title: 'Bundestagsdirektkandidat für dieBasis' },
+  { from: 'as', to: 'RP', title: 'Autor' },
 
   { from: 'sr', to: 'EbMGL', title: 'Autorin' },
   { from: 'sr', to: 'IWIMED', title: 'Beteiligung' },
@@ -193,6 +204,7 @@ var rawEdges = [
 
   { from: 'msNeos', to: 'TirolerAdler', title: 'Gastredner Tiroler Adler Forum' },
   { from: 'msNeos', to: 'NEOS', title: 'ehem. Politiker' },
+  { from: 'msNeos', to: 'BMBWF', title: 'Berater' },
   { from: 'bmr', to: 'NEOS', title: 'Parteivorsitzende', length: 30, value: 1.3 },
   { from: 'zda', to: 'bmr', title: 'zitiert durch' },
   { from: 'NEOS', to: 'offeneschulen', title: 'Kampagne' },
@@ -235,8 +247,30 @@ var rawEdges = [
   { from: 'ks', to: 'LOCKDOWN-KINDERRECHTE', title: 'Credit' },
   { from: 'cs', to: 'LOCKDOWN-KINDERRECHTE', title: 'Credit' },
   { from: 'cs', to: 'GBD', title: 'Unterzeichner' },
+  { from: 'cs', to: 'RP', title: 'Schriftführer Stellvertreter' },
+  // https://www.youtube.com/watch?v=Riad0QKltd4&t=139s
+  { from: 'cs', to: 'kaisertv', title: 'Youtube Interview, 01.09.2021' },
+  { from: 'gk', to: 'kaisertv', title: 'Gunnar Kaiser betreibt seit 2016 KaiserTV' },
+  { from: 'gk', to: 'ZK', title: 'Vortrag' },
+  { from: 'cfACTA', to: 'ZK', title: 'Vortrag' },
+  // https://kurier.at/meinung/gastkommentar/alternativen-zu-lockdown-und-impfzwang/401407287
+  { from: 'cfACTA', to: 'KURIER', title: 'Gastkommentar: Alternativen zu Lockdown und Impfzwang' },
+  { from: 'cfACTA', to: 'CA', title: 'Co-Autor' },
+  { from: 'cs', to: 'CA', title: 'Co-Autor' },
+  { from: 'ug', to: 'CA', title: 'Co-Autorin' },
+  { from: 'jr2', to: 'CA', title: 'Co-Autorin' },
   { from: 'cf', to: 'LOCKDOWN-KINDERRECHTE', title: '"in Cooperation mit"' },
   { from: 'ICI', to: 'LOCKDOWN-KINDERRECHTE', title: '"mit freundlicher Unterstützung"' },
+  { from: 'ICI', to: 'ZK', title: 'Vortrag ICI-Mitglied Jesper Larsson Träff' },
+
+  { from: 'cf', to: 'MFG', title: 'Parteiobmann Stv.' },
+  { from: 'cf', to: 'ORF', title: 'Interview OE1 28.09.2021' },
+  { from: 'cf', to: 'RP', title: 'Zitat Flyer "Respekt Jugend!"' },
+  { from: 'gp', to: 'MFG', title: 'Finanzreferent' },
+  { from: 'gp', to: 'ICI', title: 'Gelistet auf der "Über uns" Seite' },
+  { from: 'gp', to: 'wochenblick', title: 'Interview 06.09.2021' },
+  { from: 'FPOE', to: 'wochenblick', title: '2019: FPÖ-Politiker inserierten um 116.000 Euro in rechten Medien' },
+  { from: 'MFG', to: 'ServusTV', title: 'Talk im Hangar-7, Joachim Aigner, Spitzenkandidat MFG, 23.09.2021' },
 ];
 
 // global for node scripts

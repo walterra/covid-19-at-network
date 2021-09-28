@@ -112,6 +112,14 @@ desc.pa = `
 `
 
 desc.sr = `
+<i>2021</i>
+
+Anfang 2021 kommt es offensichtlich zum Bruch zwischen Susanne Rabady und Andreas Sönnichsen. In einem [Gastkommentar im Standard](https://www.derstandard.at/story/2000123704028/der-reiz-experte-zu-sein) dankt sie Wilfred Druml, Professor an der Medizinischen Universität Wien, für dessen [Gastkommentar](https://www.derstandard.at/story/2000123668947/mikulicz-schau-oba-ueber-mundbinden-und-masken), in dem er Sönnichsen heftig kritisiert. Sönnichsen selbst antwortet in einem ["Offenen Brief"](https://respekt.plus/2021/02/03/offener-brief-von-andreas-soennichsen-warum-melde-ich-mich-zu-wort-ich-bin-doch-kein-experte/) and Rabady/Druml, bezeichnet sie u.a. als „Experten“ in Anführungszeichen.
+
+----
+
+<i>2020</i>
+
 Susanne Rabady selbst ist im Rahmen der COVID-19-Krise nicht durch stark verharmlosende Aussagen aufgefallen. Sie hat in der Vergangenheit allerdings gemeinsam mit Andreas Sönnichsen publiziert und ist mit ihm an derselben Firma beteiligt. Auf Nachfrage hat sie sich nicht explizit von seinen Aussagen distanziert.
 
 In einem [ORF-Interview vom August](https://noe.orf.at/stories/3063121/) sagte sie, *"dass wir mit unserer Strategie gut durchkommen"* und sieht zu dem Zeitpunkt keine zweite Welle, merkt aber an: "Es kann schnell kippen".
@@ -379,5 +387,44 @@ Leitende Kinder- und Jugendpsychiaterin am Wiener AKH
 
 <i>"Man sollte endlich die Kinder in Ruhe lassen. Sie spielen keine relevante Rolle bei diesem Thema."</i><br/>
 Trailer "Eine andere Freiheit", [youtube.com](https://www.youtube.com/watch?v=G4xBCWInJqo)
+`
 
+desc.gp = `
+Finanzreferent MFG, Mitglied ICI
+
+<i>"Auf Intensivstationen liegen größtenteils Geimpfte!"</i><br/>
+06.09.2021, [wochenblick.at](https://www.wochenblick.at/gerhard-poettler-auf-intensivstationen-liegen-groesstenteils-geimpfte/)
+`
+
+desc.wochenblick = `
+FPÖ-nahes Medium aus Oberösterreich
+
+<i>"Der Wochenblick veröffentlicht seit Jahren Falschmeldungen, in letzter Zeit vor allem über die Corona-Pandemie."</i><br/>
+23.09.2021, [correctiv.org](https://correctiv.org/faktencheck/hintergrund/2021/09/23/wie-report24-wochenblick-auf1-infodirekt-den-wahlkampf-zur-bundestagswahl-mit-desinformation-beeinflussen/)
+
+<i>"Rechter 'Wochenblick' übernimmt ungeprüft Meldung über Impftoten in Behindertenheim, Eine Fake-Schilderung via Mail landete ohne Gegencheck in dem Artikel."</i><br/>
+16.03.2021, [derStandard.at](https://www.derstandard.at/story/2000125091589/rechter-wochenblick-uebernimmt-ungeprueft-meldung-ueber-impftoten)
+
+<i>"FPÖ-Politiker inserierten um 116.000 Euro in rechten Medien"<i><br/>
+06.07.2019, [orf.at](https://orf.at/stories/3129316/)
+`
+
+desc.kaisertv = `
+<i>"Der in Köln lebende Philosoph und Schriftsteller Gunnar Kaiser ist einer der führenden Denker der Corona-Verharmloser-Szene. Seit 2016 betreibt er seinen eigenen Blog und Youtube-Kanal KaiserTV."<i><br/>
+17.07.2021, [quarks.de](https://www.quarks.de/podcast/quarks-science-cops-machen-masken-kinder-krank-der-fall-gunnar-kaiser/)
+`
+
+desc.gk = `
+<i>"Der in Köln lebende Philosoph und Schriftsteller Gunnar Kaiser ist einer der führenden Denker der Corona-Verharmloser-Szene. Seit 2016 betreibt er seinen eigenen Blog und Youtube-Kanal KaiserTV."<i><br/>
+17.07.2021, [quarks.de](https://www.quarks.de/podcast/quarks-science-cops-machen-masken-kinder-krank-der-fall-gunnar-kaiser/)
+`
+
+desc.ZK = `
+<i>"Zukunftskonferenz in Wien: Antifeminismus, Verschwörungstheorien und Esoterik"</i><br/>
+19.09.2021, [semiosis.at](https://www.semiosis.at/2021/09/19/zukunftskonferenz-in-wien-antifeminismus-verschwoerungstheorien-und-esoterik/)
+`
+
+desc.CA = `
+<i>"Die 16 Beteiligten des Kollektivs Corona-Aussöhnung sind mehrheitlich als Gegner der Corona-Maßnahmen aufgefallen, ausgesprochene Befürworter sind nicht darunter. [...] Im Text werden widerlegte Behauptungen, beispielsweise zu Obduktionen, dem PCR-Test und Intensivbetten wiederholt. Ohne Belege raunen die Autorinnen und Autoren von möglicherweise Millionen Toten durch die Corona-Maßnahmen."</i><br/>
+09.07.2021, [tagesschau.de](https://www.tagesschau.de/faktenfinder/corona-ausssoehnung-101.html)
 `

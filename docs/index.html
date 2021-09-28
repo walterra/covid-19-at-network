@@ -52,7 +52,7 @@
         padding: 0 16px 16px 16px;
       }
       #network-frame {
-        width: 75%; margin: 0 auto; height: 700px; display: block;
+        width: 900px; margin: 0 auto 0 0; height: 800px; display: block;
       }
       .text-section {
         margin: 0 15%;
@@ -82,12 +82,14 @@
       <h1>Falsch beraten? Das Netz der Corona-Verharmloser*innen</h1>
       <p>Die Visualisierung dient als Ergänzung zum gleichnamigen <a href="https://www.semiosis.at/2020/11/15/falsch-beraten-das-netz-der-corona-verharmloserinnen/" target="_BLANK">Artikel des Semiosisblogs</a>. Letzte Aktualisierung: <a href="https://github.com/walterra/covid-19-at-network/blob/main/CHANGELOG.md" target="_BLANK">07.09.2021 2:30</a></p>
     </div>
-    <iframe
-      id="network-frame"
-      src="network-frame.html"
-      title="Falsch beraten? Das Netz der Corona-Verharmloser*innen"
-      frameBorder="0"
-    ></iframe>
+    <div class="text-section">
+        <iframe
+        id="network-frame"
+        src="network-frame.html"
+        title="Falsch beraten? Das Netz der Corona-Verharmloser*innen"
+        frameBorder="0"
+      ></iframe>
+    </div>
     <div class="text-section">
       <p><strong>Wie funktioniert die Netzwerkanalyse?</strong> <br/>Der Graphik liegen Informationen zu Personen, Institutionen etc. und ihre Verbindungen zu Grunde. Eine Verbindung ist zum Beispiel <i>"Rudi Anschober ist Minister des Gesundheitsministeriums"</i> oder <i>"Franz Allerberger war Teil der Test-Tsunami-Pressekonferenz"</i>.</p>
       <p>Ein physikalisches Modell berechnet dann die Position der Knoten und Verbindungen: Alle Knoten stossen sich an sich voneinander ab, die Verbindungen ziehen bestimmte Knoten aber wieder näher zusammen. Mit einem Klick auf einen Knoten können Sie weitere Informationen abrufen. Ein Klick auf eine Verbindung zeigt die Art der Verbindung an (z.B. Teilnahme an einer Pressekonferenz, Mitglied einer Institution).</p>
