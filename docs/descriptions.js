@@ -428,3 +428,29 @@ desc.CA = `
 <i>"Die 16 Beteiligten des Kollektivs Corona-Aussöhnung sind mehrheitlich als Gegner der Corona-Maßnahmen aufgefallen, ausgesprochene Befürworter sind nicht darunter. [...] Im Text werden widerlegte Behauptungen, beispielsweise zu Obduktionen, dem PCR-Test und Intensivbetten wiederholt. Ohne Belege raunen die Autorinnen und Autoren von möglicherweise Millionen Toten durch die Corona-Maßnahmen."</i><br/>
 09.07.2021, [tagesschau.de](https://www.tagesschau.de/faktenfinder/corona-ausssoehnung-101.html)
 `
+
+desc.MWGFD = `
+<i>"Ein Verein von Medizinern und Wissenschaftlern will Gesundheit, Freiheit und Demokratie auf Basis von Wissenschaftlichkeit und Evidenz schützen. Bisherige Aktionen und Aussagen nähren daran Zweifel. [...] Der MWGFD rühmt sich, mehr als 19.000 namentlich bekannte Unterstützer zu haben - und lässt keine Zweifel, was der Hauptzweck des Vereins ist: gegen die Maßnahmen der Regierung zur Eindämmung der Corona-Pandemie vorzugehen. [...] Ein MWGFD-Mitglied, der Arzt und "Quantenheiler" Andreas Diemer, empfiehlt auf seiner Homepage, gegen "Viren, auch bei Covid-19 und anderen Corona-Viren", Chlordioxid einzunehmen oder gar zu injizieren - eine Behandlung die nicht nur wirkungslos, sondern potenziell lebensgefährlich ist."</i><br/>
+14.07.2021, [tagesschau.de](https://www.tagesschau.de/faktenfinder/mwgfd-101.html)
+
+<i>"Neben Sucharit Bhakdi versammeln sich im Verein MWGFD e.V. weitere prominente Corona-Relativierer. Darunter der ehemalige Bundestagsabgeordnete und Arzt Wolfgang Wodarg. Er gehörte im März zu den ersten „Youtube-Doktoren“, die fragwürdige Positionen und unbelegte Theorien zum Coronavirus verbreiteten. Gemeinsam ist den Mitgliedern des Vereins eines: Sie halten die Pandemie für ungefährlich, die Maßnahmen gegen sie für falsch – und sie möchten möglichst viele Menschen von dieser Sichtweise überzeugen."</i><br/>
+27.08.2020, [correctiv.org](https://correctiv.org/faktencheck/hintergrund/2020/08/27/im-netz-der-corona-gegner/)
+`
+
+desc.WZUG = `
+<i>"Initiative gegen Covid-19 Impfungen für Kinder und Jugendliche"</i><br/>(Eigenbezeichnung)
+`
+
+desc.ServusTV = `
+TV Sender des Milliardärs Dietrich Mateschitz
+
+<i>"Seher von ServusTV und oe24.tv neigen eher zu Corona-Verharmlosung"</i><br/>
+09.08.2021, [science.apa.at](https://science.apa.at/power-search/5415237754144197625)
+
+<i>"Corona-Verharmloser, Impfgegner und Gates-Verschwörer schauen besonders gerne Servus TV — Verschwörungstheorien fördern Misstrauen in Demokratie und Institutionen. Das kann auch zur Radikalisierung führen. Der Sender Servus TV hat da eine Verantwortung, der er sich bewusst sein sollte."</i><br/>
+06.08.2021, [derstandard.at](https://www.derstandard.at/story/2000128742720/servus-tv-heimat-der-corona-verharmloser-und-impfskeptiker)
+
+
+<i>"Dietrich Mateschitz nimmt sich Servus TV auch organisatorisch zur Brust: Servus-TV-Chef Ferdinand Wegscheider berichtet nach STANDARD-Infos künftig direkt an den Red-Bull-Boss und vielfachen Milliardär, auf dessen Konzepten und Programmvorstellungen der Sender ohnehin seit seinem Start beruht."</i><br/>
+03.07.2019, [derstandard.at](https://www.derstandard.at/story/2000105862961/red-bull-boss-mateschitz-holt-servus-tv-direkt-zu-sich)
+`

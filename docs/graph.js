@@ -82,12 +82,15 @@ var rawNodes = [
   { id: 'RP', label: "Respekt.plus", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'MFG', label: "MFG", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'ZK', label: "Zukunftskonferenz 2021", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'MWGFD', label: "MWGFD e.V.", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'WZUG', label: "#wirzeigenunsergesicht", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
 
   { id: 'zda', label: '"Zahlen der AGES"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20 },
   { id: 'entd', label: '"Entdämonisierung"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20 },
   { id: 'SW', label: '"Schwedischer Weg"', shape: "circularImage", image: "img/icon-quote.jpg", size: 20 },
 
   { id: 'PK2020', label: 'Primärversorgungs-\nKongress 2020', shape: "circularImage", image: "img/icon-event.png", size: 20 },
+  { id: 'DNR2021', label: 'Die Nadel ruft', shape: "circularImage", image: "img/icon-event.png", size: 20 },
 ];
 
 var rawEdges = [
@@ -156,6 +159,9 @@ var rawEdges = [
   { from: 'as', to: 'LOCKDOWN-KINDERRECHTE', title: 'Credit' },
   { from: 'as', to: 'dieBasis', title: 'Bundestagsdirektkandidat für dieBasis' },
   { from: 'as', to: 'RP', title: 'Autor' },
+  // Papa Talk https://www.servustv.com/aktuelles/v/aa-28t4bshw12111/ (inkl. Clemens Arvay)
+  { from: 'as', to: 'ServusTV', title: 'Papa Talk 08.09.2021' },
+  { from: 'cs', to: 'ServusTV', title: 'Papa Talk 08.09.2021' },
 
   { from: 'sr', to: 'EbMGL', title: 'Autorin' },
   { from: 'sr', to: 'IWIMED', title: 'Beteiligung' },
@@ -271,6 +277,25 @@ var rawEdges = [
   { from: 'gp', to: 'wochenblick', title: 'Interview 06.09.2021' },
   { from: 'FPOE', to: 'wochenblick', title: '2019: FPÖ-Politiker inserierten um 116.000 Euro in rechten Medien' },
   { from: 'MFG', to: 'ServusTV', title: 'Talk im Hangar-7, Joachim Aigner, Spitzenkandidat MFG, 23.09.2021' },
+
+  // https://www.mwgfd.de/unsere-mitglieder/
+  { from: 'sb', to: 'MWGFD', title: 'Vereinsvorsitzender' },
+  { from: 'mh', to: 'MWGFD', title: 'Vereinsmitglied' },
+  { from: 'cs', to: 'MWGFD', title: 'Vereinsmitglied' },
+  { from: 'as', to: 'MWGFD', title: 'Vereinsmitglied' },
+
+  // https://wirzeigenunsergesicht.org/
+  // https://www.ots.at/presseaussendung/OTS_20210611_OTS0021/mehr-als-120-aerztinnen-kritisieren-covid-impfung-von-kindern
+  { from: 'PPR', to: 'WZUG', title: 'APA OTS Aussendung 11.06.2021' },
+  { from: 'as', to: 'WZUG', title: 'Video-Statement' },
+  { from: 'cs', to: 'WZUG', title: 'Video-Statement' },
+  { from: 'WZUG', to: 'wochenblick', title: 'Artikel 11.06.2021, 24.06.2021' },
+
+  // Die Nadel ruft
+  { from: 'cs', to: 'DNR2021', title: 'Vortrag' },
+  { from: 'gk', to: 'DNR2021', title: 'Vortrag' },
+  { from: 'mh', to: 'DNR2021', title: 'Vortrag (angefragt' },
+
 ];
 
 // global for node scripts
