@@ -38,6 +38,9 @@ var rawNodes = [
   { id: 'gp', label: "Gerhard Pöttler", shape: "circularImage", image: "img/dummy-male.jpg" },
   { id: 'gk', label: "Gunnar Kaiser", shape: "circularImage", image: "img/dummy-male.jpg" },
   { id: 'cfACTA', label: "Christian Felber", shape: "circularImage", image: "img/dummy-male.jpg" },
+  { id: 'mb', label: "Michael Brunner", shape: "circularImage", image: "img/dummy-male.jpg" },
+  { id: 'rb', label: "Raphael Bonelli", shape: "circularImage", image: "img/dummy-male.jpg" },
+  { id: 'hh', label: "Hannes Hofbauer", shape: "circularImage", image: "img/dummy-male.jpg" },
 
   { id: 'aekooe', label: "Ärztekammer Oberösterreich", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'BMBWF', label: "BMBWF", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
@@ -54,6 +57,12 @@ var rawNodes = [
   { id: 'SPOE', label: "SPÖ", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'AIHTA', label: "AIHTA", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'CA', label: "Corona-Aussöhnung", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'ACU', label: "Ausserparlamentarischer Corona\nUntersuchungsausschuss", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'AFA', label: "Rechtsanwälte für Grundrechte\nAnwälte für Aufklärung", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'HAA', label: "Hannah-Arendt-Akademie e.V.", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'promedia', label: "Promedia Verlag", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'keinzustand', label: "keinzustand.at", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
+  { id: 'VFKI', label: "Verein für kulturelle Information", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
 
   { id: 'IWIMED', label: "IWIMED GmbH", shape: "circularImage", image: "img/icon-company.png", size: 20 },
 
@@ -73,6 +82,9 @@ var rawNodes = [
   { id: 'ET', label: 'Epoch Times', shape: "circularImage", image: "img/icon-media.png", size: 20 },
   { id: 'kaisertv', label: "kaisertv.de", shape: "circularImage", image: "img/icon-media.png", size: 20 },
   { id: 'KURIER', label: "Kurier", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'rubikon', label: "rubikon", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'AADT', label: "#allesaufdentisch", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'LOCKDOWN2020', label: "Lockdown 2020", shape: "circularImage", image: "img/icon-media.png", size: 20 },
 
   { id: 'PPR', label: "Purkarthofer PR", shape: "circularImage", image: "img/icon-company.png", size: 20 },
   { id: 'ppc', label: "ppc training", shape: "circularImage", image: "img/icon-company.png", size: 20 },
@@ -91,13 +103,15 @@ var rawNodes = [
 
   { id: 'PK2020', label: 'Primärversorgungs-\nKongress 2020', shape: "circularImage", image: "img/icon-event.png", size: 20 },
   { id: 'DNR2021', label: 'Die Nadel ruft', shape: "circularImage", image: "img/icon-event.png", size: 20 },
+  { id: 'PATHOVACC2021', label: "PATHOVACC 2021", shape: "circularImage", image: "img/icon-event.png", size: 20 },
+  { id: 'UNIVIERC', label: "Universität Wien\nRingvorlesung - Corona", shape: "circularImage", image: "img/icon-event.png", size: 20 },
 ];
 
 var rawEdges = [
-  { from: 'fa', to: 'AGES', title: 'Leitung Öffentliche Gesundheit', font: { align: "middle" }, length: 30, value: 1.5 },
+  { from: 'fa', to: 'AGES', title: 'Leitung Öffentliche Gesundheit', font: { align: "middle" }, length: 30 },
   // Faßmann-PK zu Tests an Schulen https://orf.at/stories/3196627/
   { from: 'fa', to: 'hf', title: 'Faßmann-PK zu Tests an Schulen (9.1.2021)' },
-  { from: 'fa', to: 'ra', title: 'Allerberger testet Anschober zumeist<br/>persönlich – inzwischen zweimal pro Woche. (25.12.2020)', font: { align: "middle" }, length: 30, value: 1.5 },
+  { from: 'fa', to: 'ra', title: 'Allerberger testet Anschober zumeist<br/>persönlich – inzwischen zweimal pro Woche. (25.12.2020)', font: { align: "middle" }, length: 30 },
   { from: 'ds', to: 'AGES', title: 'Öffentliche Gesundheit', font: { align: "middle" } },
   { from: 'ds', to: 'ra', title: 'PK', font: { align: "middle" }, length: 30 },
   { from: 'ra', to: 'BMSGPK', title: 'Minister', value: 2, length: 60, arrows: { middle: { enabled: false } } },
@@ -147,6 +161,8 @@ var rawEdges = [
 
   { from: 'mh', to: 'PunktPRERADOVIC', title: 'Youtube Interview', length: 60 },
   { from: 'as', to: 'PunktPRERADOVIC', title: 'Youtube Interview: "Wir brauchen das schwedische Modell"', length: 60 },
+  // https://www.acu-austria.at/immunitaet-vs-impfung-punkt-preradovic-mit-ddr-christian-fiala/
+  { from: 'cf', to: 'PunktPRERADOVIC', title: 'Youtube Interview', length: 60 },
   { from: 'as', to: 'SW', title: 'Youtube Interview: "Wir brauchen das schwedische Modell"', length: 60 },
 
   { from: 'gw', to: 'DNEbM', title: 'Zitat OEGIT' },
@@ -277,6 +293,14 @@ var rawEdges = [
   { from: 'gp', to: 'wochenblick', title: 'Interview 06.09.2021' },
   { from: 'FPOE', to: 'wochenblick', title: '2019: FPÖ-Politiker inserierten um 116.000 Euro in rechten Medien' },
   { from: 'MFG', to: 'ServusTV', title: 'Talk im Hangar-7, Joachim Aigner, Spitzenkandidat MFG, 23.09.2021' },
+  { from: 'mb', to: 'MFG', title: 'Parteiobmann MFG' },
+
+  // ACU
+  { from: 'mb', to: 'ACU', title: 'Mitglied/Impressum Kontakt' },
+  { from: 'mh', to: 'ACU', title: 'Mitglied' },
+  { from: 'cf', to: 'ACU', title: 'Mitglied' },
+  { from: 'RP', to: 'ACU', title: 'ACU-A, eine Initiative von AFA und Respekt.plus' },
+  { from: 'AFA', to: 'ACU', title: 'ACU-A, eine Initiative von AFA und Respekt.plus' },
 
   // https://www.mwgfd.de/unsere-mitglieder/
   { from: 'sb', to: 'MWGFD', title: 'Vereinsvorsitzender' },
@@ -292,10 +316,53 @@ var rawEdges = [
   { from: 'WZUG', to: 'wochenblick', title: 'Artikel 11.06.2021, 24.06.2021' },
 
   // Die Nadel ruft
+  { from: 'rb', to: 'DNR2021', title: 'Vortrag' },
   { from: 'cs', to: 'DNR2021', title: 'Vortrag' },
   { from: 'gk', to: 'DNR2021', title: 'Vortrag' },
   { from: 'mh', to: 'DNR2021', title: 'Vortrag (angefragt' },
 
+  // PATHOVACC 2021
+  { from: 'fa', to: 'PATHOVACC2021', title: 'Vortrag' },
+  { from: 'mb', to: 'PATHOVACC2021', title: 'Vortrag' },
+
+  // Rechtsanwälte für Grundrechte - Anwälte für Aufklärung
+  { from: 'mb', to: 'AFA', title: 'Kontakt/Impressum' },
+
+  // Hannah-Arendt-Akademie e.V.
+  // https://www.rubikon.news/artikel/akademie-der-denker
+  { from: 'rubikon', to: 'HAA', title: 'Artikel "Akademie der Denker"' },
+  { from: 'as', to: 'HAA', title: 'Fachbereich Medizin' },
+  { from: 'ug', to: 'HAA', title: 'Fachbereich Politikwissenschaften' },
+  { from: 'gk', to: 'HAA', title: 'Fachbereich Philosophie' },
+
+  // #allesaufdentisch
+  { from: 'ms', to: 'AADT', title: 'Interview' },
+  // { from: 'schabus', to: 'AADT', title: 'Interview' },
+  { from: 'rb', to: 'AADT', title: 'Interview' },
+  { from: 'ug', to: 'AADT', title: 'Interview' },
+  { from: 'mb', to: 'AADT', title: 'Interview' },
+  { from: 'cs', to: 'AADT', title: 'Interview' },
+  { from: 'rk', to: 'AADT', title: 'Interview' },
+  { from: 'mh', to: 'AADT', title: 'Interview' },
+
+  // Universität Wien - Ringvorlesung - Corona
+  // https://ufind.univie.ac.at/de/course.html?lv=070262&semester=2021W
+  { from: 'as', to: 'UNIVIERC', title: 'Vortragender' },
+  { from: 'ms', to: 'UNIVIERC', title: 'Vortragender' },
+  { from: 'cs', to: 'UNIVIERC', title: 'Vortragender' },
+
+  // promedia verlag
+  { from: 'promedia', to: 'ZK', title: 'Promotion' },
+  { from: 'promedia', to: 'VFKI', title: 'gegruendet durch Verlag' },
+  { from: 'VFKI', to: 'keinzustand', title: 'durchfuehrende Initiative' },
+  { from: 'promedia', to: 'keinzustand', title: 'Promotion' },
+  { from: 'promedia', to: 'LOCKDOWN2020', title: 'Herausgebender Verlag' },
+  { from: 'as', to: 'LOCKDOWN2020', title: 'Beitrag' },
+  { from: 'hh', to: 'keinzustand', title: 'Initiator' },
+  { from: 'hh', to: 'ZK', title: 'Moderation' },
+  { from: 'hh', to: 'LOCKDOWN2020', title: 'Herausgeber' },
+  // https://www.rubikon.news/autoren/hannes-hofbauer
+  { from: 'hh', to: 'rubikon', title: 'diverse Artikel' },
 ];
 
 // global for node scripts
