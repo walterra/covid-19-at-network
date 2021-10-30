@@ -454,3 +454,47 @@ TV Sender des Milliardärs Dietrich Mateschitz
 <i>"Dietrich Mateschitz nimmt sich Servus TV auch organisatorisch zur Brust: Servus-TV-Chef Ferdinand Wegscheider berichtet nach STANDARD-Infos künftig direkt an den Red-Bull-Boss und vielfachen Milliardär, auf dessen Konzepten und Programmvorstellungen der Sender ohnehin seit seinem Start beruht."</i><br/>
 03.07.2019, [derstandard.at](https://www.derstandard.at/story/2000105862961/red-bull-boss-mateschitz-holt-servus-tv-direkt-zu-sich)
 `
+
+desc.rb = `
+Psychiater und Psychotherapeut
+
+<i>"Wenn es einen Wettbewerb unter Medizinern gäbe, wie man subtil Angst vor der Impfung gegen Covid-19 schürt und Zweifel sät, hätte Raphael Bonelli gute Chancen auf einen Stockerlplatz."</i><br/>
+28.08.2021, [derStandard.at](https://www.derstandard.de/story/2000129237378/clemens-arvay-co-die-impfangstmacher)
+`
+
+desc.UNIVIERC = `
+<i>"Wir sehen mit der Veranstaltung der Ringvorlesung „Corona als transdisziplinäre Herausforderung“ im Wintersemester 2021/22 von Andrea Komlosy und insbesondere zwei geladenen Vortragenden eine Grenze überschritten."</i><br/>
+15.10.2021, [strv-geschichte.univie.ac.at](https://strv-geschichte.univie.ac.at/statement-zur-ringvorlesung-corona-als-transdisziplinaere-herausforderung/)
+`
+
+desc.mm = `
+Kommunikationswissenschaftler
+
+<i>"Meyen erklärt den Journalismus für tot und thematisiert in diesem Zusammenhang häufig einen vermeintlichen Einfluss von „Mächtigen“, die über Medien gezielt Einfluss auf die Gesellschaft nehmen würden. Als Mitunterzeichner des „Manifests der offenen Gesellschaft“ beklagt er, dass es keine Räume zur vorurteilsfreien Verhandlung gesellschaftlich relevanter Themen gäbe, in denen alles verhandelt werden könnte, ohne dass Menschen der Stempel des Verschwörers, Nazis oder Antisemiten aufgedrückt würde. Auch Meyen verharmlost nicht nur die direkten Folgen der Pandemie, sondern zeigt sich ebenso offen für rechtsradikale Positionen und antisemitische Verschwörungsmuster, wenn er im Gespräch mit Volker Bruch ohne Belege davon spricht, dass „Philanthropen-Eliten“ die mediale Faktenlage beeinflussen würden oder in seinem Blog den Aktivisten Ken Jebsen zitiert und in Schutz nimmt, nachdem er ihm zuvor Interviews gibt. Die Führung des Instituts für Kommunikationswissenschaft der Ludwig-Maximilians-Universität München distanzierte sich bereits von Meyen."</i><br/>
+15.10.2021, [strv-geschichte.univie.ac.at](https://strv-geschichte.univie.ac.at/statement-zur-ringvorlesung-corona-als-transdisziplinaere-herausforderung/)
+`
+
+desc.mk = `
+Historikerin
+
+<i>"Fragwürdige Positionen - Inwiefern derlei Verharmlosung oder Relativierung im Rahmen der Ringvorlesung stattfinden könnte, zeigt ein Blick auf die Homepage keinzustand.at, auf der mehrere der nun an der Univeranstaltung Beteiligten Kritik am politischen und gesellschaftlichen Umgang mit der Corona-Pandemie äußern. Neben Sönnichsen und der Organisatorin der Ringvorlesung, der Historikerin Andrea Komlosy, sowie dem vortragenden Public-Health-Experten Martin Sprenger äußert sich etwa auch die Historikerin und Lateinamerikanistin Martina Kaller. Sie soll am 18. November über "Wissenschaftstheorie – die Tyrannei der Experten" referieren."</i><br/>
+05.10.2021, [derstandard.at](https://www.derstandard.at/story/2000130202839/freiheit-der-wissenschaft-schuetzt-auch-corona-relativierer)
+
+<i>"Mit der hysterischen Ausrufung einer Pandemie durch die Weltgesundheitsorganisation nahm der Schrecken vom kollektiven Sterben globale Ausmaße aus."</i><br/>
+19.02.2021, [keinzustand.at](https://keinzustand.at/martina-kaller/zustand-im-globalen-seminar/)
+`
+
+desc.ak = `
+<i>"Fragwürdige Positionen - Inwiefern derlei Verharmlosung oder Relativierung im Rahmen der Ringvorlesung stattfinden könnte, zeigt ein Blick auf die Homepage keinzustand.at, auf der mehrere der nun an der Univeranstaltung Beteiligten Kritik am politischen und gesellschaftlichen Umgang mit der Corona-Pandemie äußern. Neben Sönnichsen und der Organisatorin der Ringvorlesung, der Historikerin Andrea Komlosy, sowie dem vortragenden Public-Health-Experten Martin Sprenger äußert sich etwa auch die Historikerin und Lateinamerikanistin Martina Kaller."</i><br/>
+05.10.2021, [derstandard.at](https://www.derstandard.at/story/2000130202839/freiheit-der-wissenschaft-schuetzt-auch-corona-relativierer)
+`
+
+desc.ca = `
+Sachbuchautor
+
+<i>"Der Profi der Impfverunsicherer — Ein auf der RPP-Homepage vertretener Protagonist unter den Impfverunsicherern, der damit auch ordentlich Profit macht, ist der Sachbuchautor Clemens Arvay."</i><br/>
+28.08.2021, [derstandard](https://www.derstandard.de/story/2000129237378/clemens-arvay-co-die-impfangstmacher)
+
+<i>"Clemens G. Arvay engagierte sich 2020 während der Coronaviruspandemie als Kritiker von Schutzmaßnahmen vor dem Virus. Er äußerte dazu seine Ablehnung von Impfungen gegen das neue Coronavirus, insbesondere von mRNA-Impfstoffen, denen er verklausuliert fälschlich unterstellt, das menschliche Genom zu verändern. Im Frühjahr 2020 wandte er sich auch gegen das Tragen von Atemmasken zum Schutz vor dem Virus. Bei seinen Ausführungen beruft sich Arvay auch auf Raphael Bonelli."</i><br/>
+[psiram.com](https://www.psiram.com/de/index.php/Clemens_G._Arvay)
+`

@@ -3,7 +3,7 @@ var rawNodes = [
   { id: 'ms', label: "Martin Sprenger", shape: "circularImage", image: "img/martin-sprenger.jpg" },
   { id: 'pa', label: "Petra Apfalter", shape: "circularImage", image: "img/petra-apfalter.jpg" },
   { id: 'sr', label: "Susanne Rabady", shape: "circularImage", image: "img/susanne-rabady.jpg" },
-  { id: 'jr', label: "Johannes Rath", shape: "circularImage", image: "img/dummy-male.jpg" },
+  { id: 'jr', label: "Johannes Rath", shape: "circularImage", image: "img/johannes-rath.jpg" },
   { id: 'gw', label: "Günter Weiss", shape: "circularImage", image: "img/guenter-weiss.jpg" },
   { id: 'sb', label: "Sucharit Bhakdi", shape: "circularImage", image: "img/sucharit-bhakdi.jpg" },
   { id: 'fw', label: "Ferdinand Wegscheider", shape: "circularImage", image: "img/ferdinan-wegscheider.jpg" },
@@ -27,20 +27,26 @@ var rawNodes = [
   { id: 'ah', label: "Anita Heubacher", shape: "circularImage", image: "img/anita-heubacher.jpg" },
   { id: 'bmr', label: "Beate Meinl-Reisinger", shape: "circularImage", image: "img/beate-meinl-reisinger.jpg" },
   { id: 'prw', label: "Pamela Rendi-Wagner", shape: "circularImage", image: "img/pamela-rendi-wagner.jpg" },
-  { id: 'ng', label: "Nicole Grois", shape: "circularImage", image: "img/dummy-female.jpg" },
+  { id: 'ng', label: "Nicole Grois", shape: "circularImage", image: "img/nicole-grois.jpg" },
   { id: 'cw', label: "Claudia Wild", shape: "circularImage", image: "img/claudia-wild.jpg" },
   { id: 'hs', label: "Hendrik Streeck", shape: "circularImage", image: "img/hendrik-streeck.jpg" },
-  { id: 'jr2', label: "Judith Raunig", shape: "circularImage", image: "img/dummy-female.jpg" },
+  { id: 'jr2', label: "Judith Raunig", shape: "circularImage", image: "img/judith-raunig.jpg" },
   // Generalsekretär der ÖGKJ
   { id: 'rk', label: "Reinhold Kerbl", shape: "circularImage", image: "img/reinhold-kerbl.jpg" },
-  { id: 'ks', label: "Katrin Skala", shape: "circularImage", image: "img/dummy-female.jpg" },
+  { id: 'ks', label: "Katrin Skala", shape: "circularImage", image: "img/katrin-skala.jpg" },
   { id: 'ug', label: "Ulrike Guérot", shape: "circularImage", image: "img/ulrike-guerot.jpg" },
-  { id: 'gp', label: "Gerhard Pöttler", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'gk', label: "Gunnar Kaiser", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'cfACTA', label: "Christian Felber", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'mb', label: "Michael Brunner", shape: "circularImage", image: "img/dummy-male.jpg" },
-  { id: 'rb', label: "Raphael Bonelli", shape: "circularImage", image: "img/dummy-male.jpg" },
+  { id: 'gp', label: "Gerhard Pöttler", shape: "circularImage", image: "img/gerhard-poettler.jpg" },
+  { id: 'gk', label: "Gunnar Kaiser", shape: "circularImage", image: "img/gunnar-kaiser.jpg" },
+  { id: 'cfACTA', label: "Christian Felber", shape: "circularImage", image: "img/christian-felber.jpg" },
+  { id: 'mb', label: "Michael Brunner", shape: "circularImage", image: "img/michael-brunner.jpg" },
+  { id: 'rb', label: "Raphael Bonelli", shape: "circularImage", image: "img/raphael-bonelli.jpg" },
   { id: 'hh', label: "Hannes Hofbauer", shape: "circularImage", image: "img/dummy-male.jpg" },
+  { id: 'mm', label: "Michael Meyen", shape: "circularImage", image: "img/dummy-male.jpg" },
+  { id: 'mk', label: "Martina Kaller", shape: "circularImage", image: "img/dummy-female.jpg" },
+  { id: 'ak', label: "Andrea Komlosy", shape: "circularImage", image: "img/dummy-female.jpg" },
+  { id: 'ca', label: "Clemens Arvay", shape: "circularImage", image: "img/clemens-arvay.jpg" },
+
+
 
   { id: 'aekooe', label: "Ärztekammer Oberösterreich", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
   { id: 'BMBWF', label: "BMBWF", shape: "circularImage", image: "img/icon-institution.png", size: 20 },
@@ -85,6 +91,8 @@ var rawNodes = [
   { id: 'rubikon', label: "rubikon", shape: "circularImage", image: "img/icon-media.png", size: 20 },
   { id: 'AADT', label: "#allesaufdentisch", shape: "circularImage", image: "img/icon-media.png", size: 20 },
   { id: 'LOCKDOWN2020', label: "Lockdown 2020", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'WKEB', label: "Wir können es besser", shape: "circularImage", image: "img/icon-media.png", size: 20 },
+  { id: 'FALTER', label: "Falter", shape: "circularImage", image: "img/icon-media.png", size: 20 },
 
   { id: 'PPR', label: "Purkarthofer PR", shape: "circularImage", image: "img/icon-company.png", size: 20 },
   { id: 'ppc', label: "ppc training", shape: "circularImage", image: "img/icon-company.png", size: 20 },
@@ -178,6 +186,7 @@ var rawEdges = [
   // Papa Talk https://www.servustv.com/aktuelles/v/aa-28t4bshw12111/ (inkl. Clemens Arvay)
   { from: 'as', to: 'ServusTV', title: 'Papa Talk 08.09.2021' },
   { from: 'cs', to: 'ServusTV', title: 'Papa Talk 08.09.2021' },
+  { from: 'ca', to: 'ServusTV', title: 'Papa Talk 08.09.2021' },
 
   { from: 'sr', to: 'EbMGL', title: 'Autorin' },
   { from: 'sr', to: 'IWIMED', title: 'Beteiligung' },
@@ -319,7 +328,8 @@ var rawEdges = [
   { from: 'rb', to: 'DNR2021', title: 'Vortrag' },
   { from: 'cs', to: 'DNR2021', title: 'Vortrag' },
   { from: 'gk', to: 'DNR2021', title: 'Vortrag' },
-  { from: 'mh', to: 'DNR2021', title: 'Vortrag (angefragt' },
+  { from: 'mh', to: 'DNR2021', title: 'Vortrag (angefragt)' },
+  { from: 'ca', to: 'DNR2021', title: 'Vortrag' },
 
   // PATHOVACC 2021
   { from: 'fa', to: 'PATHOVACC2021', title: 'Vortrag' },
@@ -350,6 +360,9 @@ var rawEdges = [
   { from: 'as', to: 'UNIVIERC', title: 'Vortragender' },
   { from: 'ms', to: 'UNIVIERC', title: 'Vortragender' },
   { from: 'cs', to: 'UNIVIERC', title: 'Vortragender' },
+  { from: 'mm', to: 'UNIVIERC', title: 'Vortragender' },
+  { from: 'mk', to: 'UNIVIERC', title: 'Vortragende' },
+  { from: 'ak', to: 'UNIVIERC', title: 'Vortragende' },
 
   // promedia verlag
   { from: 'promedia', to: 'ZK', title: 'Promotion' },
@@ -359,10 +372,34 @@ var rawEdges = [
   { from: 'promedia', to: 'LOCKDOWN2020', title: 'Herausgebender Verlag' },
   { from: 'as', to: 'LOCKDOWN2020', title: 'Beitrag' },
   { from: 'hh', to: 'keinzustand', title: 'Initiator' },
+  { from: 'mk', to: 'keinzustand', title: 'Beitrag' },
+  { from: 'ak', to: 'keinzustand', title: 'Beitrag' },
   { from: 'hh', to: 'ZK', title: 'Moderation' },
   { from: 'hh', to: 'LOCKDOWN2020', title: 'Herausgeber' },
+  { from: 'ak', to: 'LOCKDOWN2020', title: 'Textbeitrag' },
   // https://www.rubikon.news/autoren/hannes-hofbauer
   { from: 'hh', to: 'rubikon', title: 'diverse Artikel' },
+  { from: 'mm', to: 'rubikon', title: 'diverse Artikel' },
+
+  // Zukunftskonferenz 2021
+  // https://web.archive.org/web/20210909192047/https://zukunftskonferenz.live/programm/
+  { from: 'mm', to: 'ZK', title: 'Vortrag' },
+  { from: 'mb', to: 'ZK', title: 'Vortrag: Rechtsstaat im Koma: Die überfällige Entpolitisierung der Justiz' },
+  // https://www.o94.at/programm/sendung/id/1848330
+  // https://respekt.plus/2021/08/13/zukunftskonferenz-weil-es-anders-geht/
+  { from: 'RP', to: 'ZK', title: '"Gemeinschaftsprojekt" Zukunftskonferenz' },
+  { from: 'ak', to: 'ZK', title: 'Vortrag' },
+
+  // Wir koennen es besser,
+  { from: 'ca', to: 'WKEB', title: 'Autor' },
+  // https://www.amazon.de/Wir-k%C3%B6nnen-besser-Umweltzerst%C3%B6rung-Corona-Pandemie-ebook/dp/B088KPYTBF
+  { from: 'cs', to: 'WKEB', title: 'Pressestimme' },
+  { from: 'as', to: 'WKEB', title: 'Vorwort und Pressestimme' },
+  // https://www.falter.at/zeitung/20201028/gelesen/_1c07226cbd
+  { from: 'ms', to: 'WKEB', title: 'Buchbesprechung Falter' },
+  { from: 'ms', to: 'FALTER', title: 'Buchbesprechung' },
+  { from: 'FALTER', to: 'WKEB', title: 'Buchbesprechung' },
+
 ];
 
 // global for node scripts
